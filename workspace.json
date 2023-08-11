@@ -6159,32 +6159,32 @@
                         },
                         "VALUE-1": {
                           "block": {
-                            "type": "Add",
-                            "id": "].9xew-e2jx[ao#5/fmw",
+                            "type": "GetVariable",
+                            "id": "oTV)M,7S1,*mRCeTq`zV",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
-                                  "type": "GetGamemodeScore",
-                                  "id": ";/r[G=hWtsj^KflPeEGN",
+                                  "type": "variableReferenceBlock",
+                                  "id": "?GHj88la(OcKy]qi|l:V",
+                                  "extraState": {
+                                    "isObjectVar": true
+                                  },
+                                  "fields": {
+                                    "OBJECTTYPE": "TeamId",
+                                    "VAR": {
+                                      "id": "r4V8Q_*80+7u^-a{.?*h"
+                                    }
+                                  },
                                   "inputs": {
-                                    "VALUE-0": {
+                                    "OBJECT": {
                                       "block": {
                                         "type": "subroutineArgumentBlock",
-                                        "id": "8Tr#evN+gq+A(F.c=G^(",
+                                        "id": "r_|78L!}()s5#K)/x8BK",
                                         "fields": {
                                           "ARGUMENT_INDEX": "0"
                                         }
                                       }
                                     }
-                                  }
-                                }
-                              },
-                              "VALUE-1": {
-                                "block": {
-                                  "type": "Number",
-                                  "id": "uYH$`rR/{{c[=~o3I9~9",
-                                  "fields": {
-                                    "NUM": 1
                                   }
                                 }
                               }
