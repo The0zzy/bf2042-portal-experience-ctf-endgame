@@ -22,7 +22,7 @@ To score, the own flag must be at the base when delivering the enemy flag.
 # Gameplay
 
 ## Trailer
-[![BF3 End Game Trailer](/resources/yt-premiere-button.png "BF3 End Game Trailer")](https://www.youtube.com/watch?v=wK5f7az5dIY)
+[![BF3 End Game Trailer](yt-premiere-button.png "BF3 End Game Trailer")](https://www.youtube.com/watch?v=wK5f7az5dIY)
 
 ## Gameplay
-[![BF3 Gameplay](/resources/yt-gameplay-button.png "BF3 Gameplay")](https://www.youtube.com/watch?v=Bed91jJ6-qw)
+[![BF3 Gameplay](yt-gameplay-button.png "BF3 Gameplay")](https://www.youtube.com/watch?v=Bed91jJ6-qw)
