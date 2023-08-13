@@ -5,8 +5,8 @@
       {
         "type": "modBlock",
         "id": "m{U$@AbnLAjFLTRWp{NZ",
-        "x": 43,
-        "y": 94,
+        "x": 0,
+        "y": 0,
         "inputs": {
           "RULES": {
             "block": {
@@ -5856,7 +5856,7 @@
         "type": "subroutineBlock",
         "id": "X{5am.A_f1!a@n5VWD19",
         "x": 0,
-        "y": 11092,
+        "y": 11175,
         "extraState": {
           "subroutineName": "flagPickedUp",
           "parameters": [
@@ -6382,7 +6382,7 @@
         "type": "subroutineBlock",
         "id": ":OQL40tp2E1w!,Wx`Y=C",
         "x": 0,
-        "y": 12407,
+        "y": 12490,
         "extraState": {
           "subroutineName": "flagCaptured",
           "parameters": [
@@ -6803,7 +6803,7 @@
         "type": "subroutineBlock",
         "id": "5EwkU/.a5u9{,=,aAAR@",
         "x": 0,
-        "y": 13204,
+        "y": 13287,
         "extraState": {
           "subroutineName": "yawToObjectGlobal",
           "parameters": [
@@ -7224,7 +7224,7 @@
         "type": "subroutineBlock",
         "id": "S6?^dz4MmIhTKH;X.eWD",
         "x": 0,
-        "y": 14239,
+        "y": 14322,
         "extraState": {
           "subroutineName": "showDebugMessages"
         },
@@ -7361,7 +7361,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 14548,
+        "y": 14631,
         "extraState": {
           "subroutineName": "showPlayerMessages"
         },
@@ -7961,7 +7961,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 15472,
+        "y": 15555,
         "extraState": {
           "subroutineName": "tick"
         },
@@ -10727,7 +10727,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 18123,
+        "y": 18302,
         "extraState": {
           "subroutineName": "initFlagPositions"
         },
@@ -12027,20 +12027,20 @@
                                                     },
                                                     "DO": {
                                                       "block": {
-                                                        "type": "EndRound",
-                                                        "id": "H}wi{_+v{xsl(8AD*j!T",
+                                                        "type": "ShowEventGameModeMessage",
+                                                        "id": "2/O~I_T+{J={hNFqP;U-",
                                                         "inputs": {
                                                           "VALUE-0": {
                                                             "block": {
-                                                              "type": "GetTeamId",
-                                                              "id": "p+|FcOwF`[8vgNHX,[~S",
+                                                              "type": "Message",
+                                                              "id": "w0CO[nef/8:_VIebu2h8",
                                                               "inputs": {
                                                                 "VALUE-0": {
                                                                   "block": {
-                                                                    "type": "Number",
-                                                                    "id": "Wi0V#2YIa4+L~nDfBX%?",
+                                                                    "type": "Text",
+                                                                    "id": "Vr~d9[1xk.5$vpF6nELP",
                                                                     "fields": {
-                                                                      "NUM": 0
+                                                                      "TEXT": "MAP IS NOT SUPPORTED"
                                                                     }
                                                                   }
                                                                 }
@@ -12050,8 +12050,71 @@
                                                         },
                                                         "next": {
                                                           "block": {
-                                                            "type": "Abort",
-                                                            "id": "rQ11I_7uqaNzSb)+d8:U"
+                                                            "type": "ShowHighlightedGameModeMessage",
+                                                            "id": "1QPwt)Ol-_+G[A-HWB?s",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "Message",
+                                                                  "id": "2iQJiNPKn=ulUu3U8i~5",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "Text",
+                                                                        "id": ":sXI!x%SP2#}K}r+HTta",
+                                                                        "fields": {
+                                                                          "TEXT": "MAP IS NOT SUPPORTED"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "DisplayCustomNotificationMessage",
+                                                                "id": "z=Cc~]/YHiHdT;OjukDK",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "Message",
+                                                                      "id": "LgZcZ}fWW_66_Gi86}rz",
+                                                                      "inputs": {
+                                                                        "VALUE-0": {
+                                                                          "block": {
+                                                                            "type": "Text",
+                                                                            "id": "@y6,P(O3FZ9D#}uVQst!",
+                                                                            "fields": {
+                                                                              "TEXT": "MAP IS NOT SUPPORTED"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "VALUE-1": {
+                                                                    "block": {
+                                                                      "type": "CustomMessagesItem",
+                                                                      "id": "?xPOo6~$UN-Z-d)eR}[_",
+                                                                      "fields": {
+                                                                        "VALUE-0": "CustomMessages",
+                                                                        "VALUE-1": "HeaderText"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "VALUE-2": {
+                                                                    "block": {
+                                                                      "type": "Number",
+                                                                      "id": "y1)Vvm]m5p(g3X=Ws7~b",
+                                                                      "fields": {
+                                                                        "NUM": -1
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
                                                           }
                                                         }
                                                       }
@@ -13913,7 +13976,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 11988,
+        "y": 12071,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -14080,8 +14143,8 @@
       {
         "type": "subroutineBlock",
         "id": "[f*KuG}{U[?u*?$h`hQD",
-        "x": 84,
-        "y": 10546,
+        "x": 0,
+        "y": 10588,
         "extraState": {
           "subroutineName": "onFlagCarrierDied",
           "parameters": [
@@ -14369,6 +14432,40 @@
                     }
                   }
                 }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": "Ev8$Oq:aQ(_kxKm0cDy/",
+        "x": 0,
+        "y": 18206,
+        "inputs": {
+          "VALUE-0": {
+            "block": {
+              "type": "Text",
+              "id": "1yb.p5z:ek=}:j|~2bt%",
+              "fields": {
+                "TEXT": "MAP IS NOT SUPPORTED"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "Message",
+        "id": "}lgfFr4NR/.w.Q~~F]M!",
+        "x": 0,
+        "y": 22940,
+        "inputs": {
+          "VALUE-0": {
+            "block": {
+              "type": "Text",
+              "id": "[!LWo,,~Z!Z5L:I0/NGV",
+              "fields": {
+                "TEXT": "MAP IS NOT SUPPORTED"
               }
             }
           }
