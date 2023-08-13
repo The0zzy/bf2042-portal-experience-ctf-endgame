@@ -5,8 +5,8 @@
       {
         "type": "modBlock",
         "id": "m{U$@AbnLAjFLTRWp{NZ",
-        "x": 0,
-        "y": 0,
+        "x": 43,
+        "y": 94,
         "inputs": {
           "RULES": {
             "block": {
@@ -1960,7 +1960,7 @@
                                                     "isOngoingEvent": true
                                                   },
                                                   "fields": {
-                                                    "NAME": "New Rule",
+                                                    "NAME": "debugDropFlag",
                                                     "EVENTTYPE": "Ongoing",
                                                     "OBJECTTYPE": "Player"
                                                   },
@@ -2088,6 +2088,148 @@
                                                             "block": {
                                                               "type": "EventPlayer",
                                                               "id": "jI^n?WuE@zO~@gw{FWg!"
+                                                            }
+                                                          }
+                                                        },
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "Teleport",
+                                                            "id": "GEAZBptw9O[)7|^O{w#F",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "#.M/;Q93]IQpTG6W[%!+"
+                                                                }
+                                                              },
+                                                              "VALUE-1": {
+                                                                "block": {
+                                                                  "type": "Add",
+                                                                  "id": "AalunWHpNj+@oq1I9.Aa",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "GetSoldierState",
+                                                                        "id": "JT#ly=x;P@o-*Z.5-x(p",
+                                                                        "inputs": {
+                                                                          "VALUE-0": {
+                                                                            "block": {
+                                                                              "type": "EventPlayer",
+                                                                              "id": "}!Uv2z?c+-~m1%yzHzh,"
+                                                                            }
+                                                                          },
+                                                                          "VALUE-1": {
+                                                                            "block": {
+                                                                              "type": "SoldierStateVectorItem",
+                                                                              "id": "g8({ENctJ]|KJinz{E6j",
+                                                                              "fields": {
+                                                                                "VALUE-0": "SoldierStateVector",
+                                                                                "VALUE-1": "GetFacingDirection"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "VALUE-1": {
+                                                                      "block": {
+                                                                        "type": "Add",
+                                                                        "id": "#y~-}yPdA3({GL/u]AgG",
+                                                                        "inputs": {
+                                                                          "VALUE-0": {
+                                                                            "block": {
+                                                                              "type": "GetSoldierState",
+                                                                              "id": "J4W40S9z=NaVh=~^NnC0",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "EventPlayer",
+                                                                                    "id": "hqv5Q9_2I]M|s/k0I5tN"
+                                                                                  }
+                                                                                },
+                                                                                "VALUE-1": {
+                                                                                  "block": {
+                                                                                    "type": "SoldierStateVectorItem",
+                                                                                    "id": "8JIT^Wdw,`ZH8r8L88IP",
+                                                                                    "fields": {
+                                                                                      "VALUE-0": "SoldierStateVector",
+                                                                                      "VALUE-1": "GetPosition"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "VALUE-1": {
+                                                                            "block": {
+                                                                              "type": "Multiply",
+                                                                              "id": "WI/iJVQQX]5rKV?In?}b",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "GetSoldierState",
+                                                                                    "id": "?sXLI=`*S4cqst=MT+l]",
+                                                                                    "inputs": {
+                                                                                      "VALUE-0": {
+                                                                                        "block": {
+                                                                                          "type": "EventPlayer",
+                                                                                          "id": "MwL%?(nzs5WO3_EQ#L_3"
+                                                                                        }
+                                                                                      },
+                                                                                      "VALUE-1": {
+                                                                                        "block": {
+                                                                                          "type": "SoldierStateVectorItem",
+                                                                                          "id": "[O6/hFNf!Fz$X-r}z:!)",
+                                                                                          "fields": {
+                                                                                            "VALUE-0": "SoldierStateVector",
+                                                                                            "VALUE-1": "GetFacingDirection"
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "VALUE-1": {
+                                                                                  "block": {
+                                                                                    "type": "GetVariable",
+                                                                                    "id": "4hfro#/2/6eeg@imX@Sp",
+                                                                                    "inputs": {
+                                                                                      "VALUE-0": {
+                                                                                        "block": {
+                                                                                          "type": "variableReferenceBlock",
+                                                                                          "id": "=)OGiLrMs8fZT062S~Xq",
+                                                                                          "extraState": {
+                                                                                            "isObjectVar": false
+                                                                                          },
+                                                                                          "fields": {
+                                                                                            "OBJECTTYPE": "Global",
+                                                                                            "VAR": {
+                                                                                              "id": "%O+Pz}~.cC:-gkOQ#tVr"
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "VALUE-2": {
+                                                                "block": {
+                                                                  "type": "Number",
+                                                                  "id": "Fwj.JFl=_,I8L9?~5yNS",
+                                                                  "fields": {
+                                                                    "NUM": 0
+                                                                  }
+                                                                }
+                                                              }
                                                             }
                                                           }
                                                         }
@@ -13938,8 +14080,8 @@
       {
         "type": "subroutineBlock",
         "id": "[f*KuG}{U[?u*?$h`hQD",
-        "x": 0,
-        "y": 10505,
+        "x": 84,
+        "y": 10546,
         "extraState": {
           "subroutineName": "onFlagCarrierDied",
           "parameters": [
