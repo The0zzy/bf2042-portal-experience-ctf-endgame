@@ -1,5 +1,10 @@
 # BF2042 - Capture The Flag (based on BF3 End Game Extension)
 
+## Experience Codes
+
+* Developemnt Version: `ABENTC`
+* Main Version: `ABENTC`
+
 ## Gameplay Rules
 
 The OG CTF of BF3 - Get to the opposing flag to pick it up and carry it back to your base.  
