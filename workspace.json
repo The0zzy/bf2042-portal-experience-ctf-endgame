@@ -9670,15 +9670,40 @@
                         "inputs": {
                           "OBJECT": {
                             "block": {
-                              "type": "GetTeamId",
-                              "id": "a-OV)TRFNf6PO9IN.(7S",
+                              "type": "GetVariable",
+                              "id": "{T/slVcJs7D*vmGcd_RS",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
-                                    "type": "subroutineArgumentBlock",
-                                    "id": "E3zr]ic@!=;@gMooCp/!",
+                                    "type": "variableReferenceBlock",
+                                    "id": "Qfi(L!]b]SlO[80PnBdr",
+                                    "extraState": {
+                                      "isObjectVar": true
+                                    },
                                     "fields": {
-                                      "ARGUMENT_INDEX": "0"
+                                      "OBJECTTYPE": "TeamId",
+                                      "VAR": {
+                                        "id": "7w/Nu/iw7+6VCz]Of5R5"
+                                      }
+                                    },
+                                    "inputs": {
+                                      "OBJECT": {
+                                        "block": {
+                                          "type": "GetTeamId",
+                                          "id": "a-OV)TRFNf6PO9IN.(7S",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "subroutineArgumentBlock",
+                                                "id": "E3zr]ic@!=;@gMooCp/!",
+                                                "fields": {
+                                                  "ARGUMENT_INDEX": "0"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
                                     }
                                   }
                                 }
@@ -9733,15 +9758,40 @@
                             "inputs": {
                               "OBJECT": {
                                 "block": {
-                                  "type": "GetTeamId",
-                                  "id": "+=e5AcOV/;uYH:!_Pr0Y",
+                                  "type": "GetVariable",
+                                  "id": "r,Sgjk2%}u;fw0hp*cE6",
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
-                                        "type": "subroutineArgumentBlock",
-                                        "id": "xB2m$41lT3l#=;,B4iHV",
+                                        "type": "variableReferenceBlock",
+                                        "id": "RUq1GFpx`Fa2;z9XR33|",
+                                        "extraState": {
+                                          "isObjectVar": true
+                                        },
                                         "fields": {
-                                          "ARGUMENT_INDEX": "0"
+                                          "OBJECTTYPE": "TeamId",
+                                          "VAR": {
+                                            "id": "7w/Nu/iw7+6VCz]Of5R5"
+                                          }
+                                        },
+                                        "inputs": {
+                                          "OBJECT": {
+                                            "block": {
+                                              "type": "GetTeamId",
+                                              "id": "tAV`bxmsq8`vQN[sUjv*",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "subroutineArgumentBlock",
+                                                    "id": "9m{/S:~5/|[Qd3mxttTO",
+                                                    "fields": {
+                                                      "ARGUMENT_INDEX": "0"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
                                         }
                                       }
                                     }
