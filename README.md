@@ -18,6 +18,18 @@ In case of reaching the timelimit, the team with the most flag scores wins.
 
 To score, the own flag must be at the base when delivering the enemy flag.
 
+## Vehicle Restrictions
+
+* 1x M1A5 / T28
+* 2x LCAA Hovercraft
+* 2x LATV4 Recon
+* 2x Jet
+* 2x Attack Helicopter
+* 1x CAV Brawler
+
+## Map Layouts
+
+To be done...
 
 # Gameplay
 
