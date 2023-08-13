@@ -4671,7 +4671,7 @@
                                                                                   "parameters": [
                                                                                     {
                                                                                       "types": "Boolean",
-                                                                                      "name": "restrict"
+                                                                                      "name": "enable"
                                                                                     },
                                                                                     {
                                                                                       "types": "Player",
@@ -5966,7 +5966,7 @@
                     "parameters": [
                       {
                         "types": "Boolean",
-                        "name": "restrict"
+                        "name": "enable"
                       },
                       {
                         "types": "Player",
@@ -6382,7 +6382,7 @@
         "type": "subroutineBlock",
         "id": ":OQL40tp2E1w!,Wx`Y=C",
         "x": 0,
-        "y": 12490,
+        "y": 12388,
         "extraState": {
           "subroutineName": "flagCaptured",
           "parameters": [
@@ -6803,7 +6803,7 @@
         "type": "subroutineBlock",
         "id": "5EwkU/.a5u9{,=,aAAR@",
         "x": 0,
-        "y": 13287,
+        "y": 13185,
         "extraState": {
           "subroutineName": "yawToObjectGlobal",
           "parameters": [
@@ -7224,7 +7224,7 @@
         "type": "subroutineBlock",
         "id": "S6?^dz4MmIhTKH;X.eWD",
         "x": 0,
-        "y": 14322,
+        "y": 14220,
         "extraState": {
           "subroutineName": "showDebugMessages"
         },
@@ -7361,7 +7361,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 14631,
+        "y": 14529,
         "extraState": {
           "subroutineName": "showPlayerMessages"
         },
@@ -7961,7 +7961,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 15555,
+        "y": 15453,
         "extraState": {
           "subroutineName": "tick"
         },
@@ -10727,7 +10727,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 18302,
+        "y": 18200,
         "extraState": {
           "subroutineName": "initFlagPositions"
         },
@@ -13982,7 +13982,7 @@
           "parameters": [
             {
               "types": "Boolean",
-              "name": "restrict"
+              "name": "enable"
             },
             {
               "types": "Player",
@@ -14031,12 +14031,12 @@
               "next": {
                 "block": {
                   "type": "EnableInputRestriction",
-                  "id": "+({[@aj#5l~PkGiSl#o1",
+                  "id": "5Hi)9CdkJGgm$XAX|LEm",
                   "inputs": {
                     "VALUE-0": {
                       "block": {
                         "type": "subroutineArgumentBlock",
-                        "id": "g7!/{s(3QV!1Gc?IMQuS",
+                        "id": "3_(+}_EI.n~padOCK|1B",
                         "fields": {
                           "ARGUMENT_INDEX": "1"
                         }
@@ -14045,91 +14045,19 @@
                     "VALUE-1": {
                       "block": {
                         "type": "RestrictedInputsItem",
-                        "id": "uAeiAfTlz!-#Y:p(*GrW",
+                        "id": "`r(G.CGasHuOwy13a{pP",
                         "fields": {
                           "VALUE-0": "RestrictedInputs",
-                          "VALUE-1": "SelectOpenGadget"
+                          "VALUE-1": "Zoom"
                         }
                       }
                     },
                     "VALUE-2": {
                       "block": {
                         "type": "subroutineArgumentBlock",
-                        "id": "u_QKu;I3VATptehMxcng",
+                        "id": "5#],od*h,BxTy}:u$aIw",
                         "fields": {
                           "ARGUMENT_INDEX": "0"
-                        }
-                      }
-                    }
-                  },
-                  "next": {
-                    "block": {
-                      "type": "EnableInputRestriction",
-                      "id": "MhW`Ep*XV8x,*dT]pZW}",
-                      "inputs": {
-                        "VALUE-0": {
-                          "block": {
-                            "type": "subroutineArgumentBlock",
-                            "id": "0@a$|T?})94hxMrOyAD9",
-                            "fields": {
-                              "ARGUMENT_INDEX": "1"
-                            }
-                          }
-                        },
-                        "VALUE-1": {
-                          "block": {
-                            "type": "RestrictedInputsItem",
-                            "id": "5$T0,=thB%X!FkP4.n`d",
-                            "fields": {
-                              "VALUE-0": "RestrictedInputs",
-                              "VALUE-1": "SelectClassGadget"
-                            }
-                          }
-                        },
-                        "VALUE-2": {
-                          "block": {
-                            "type": "subroutineArgumentBlock",
-                            "id": "5(On|Mmpq?RNz-aqkWGO",
-                            "fields": {
-                              "ARGUMENT_INDEX": "0"
-                            }
-                          }
-                        }
-                      },
-                      "next": {
-                        "block": {
-                          "type": "EnableInputRestriction",
-                          "id": "5Hi)9CdkJGgm$XAX|LEm",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "subroutineArgumentBlock",
-                                "id": "3_(+}_EI.n~padOCK|1B",
-                                "fields": {
-                                  "ARGUMENT_INDEX": "1"
-                                }
-                              }
-                            },
-                            "VALUE-1": {
-                              "block": {
-                                "type": "RestrictedInputsItem",
-                                "id": "`r(G.CGasHuOwy13a{pP",
-                                "fields": {
-                                  "VALUE-0": "RestrictedInputs",
-                                  "VALUE-1": "Zoom"
-                                }
-                              }
-                            },
-                            "VALUE-2": {
-                              "block": {
-                                "type": "subroutineArgumentBlock",
-                                "id": "5#],od*h,BxTy}:u$aIw",
-                                "fields": {
-                                  "ARGUMENT_INDEX": "0"
-                                }
-                              }
-                            }
-                          }
                         }
                       }
                     }
@@ -14167,7 +14095,7 @@
                 "parameters": [
                   {
                     "types": "Boolean",
-                    "name": "restrict"
+                    "name": "enable"
                   },
                   {
                     "types": "Player",
@@ -14441,7 +14369,7 @@
         "type": "Message",
         "id": "Ev8$Oq:aQ(_kxKm0cDy/",
         "x": 0,
-        "y": 18206,
+        "y": 18104,
         "inputs": {
           "VALUE-0": {
             "block": {
@@ -14458,7 +14386,7 @@
         "type": "Message",
         "id": "}lgfFr4NR/.w.Q~~F]M!",
         "x": 0,
-        "y": 22940,
+        "y": 22846,
         "inputs": {
           "VALUE-0": {
             "block": {
