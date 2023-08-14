@@ -4946,7 +4946,7 @@
         "type": "subroutineBlock",
         "id": ":OQL40tp2E1w!,Wx`Y=C",
         "x": 0,
-        "y": 10985,
+        "y": 10607,
         "extraState": {
           "subroutineName": "flagCaptured",
           "parameters": [
@@ -5271,129 +5271,197 @@
                                   },
                                   "next": {
                                     "block": {
-                                      "type": "Wait",
-                                      "id": "KV{O5.H6ONN5B8T7zFSz",
+                                      "type": "ShowEventGameModeMessage",
+                                      "id": "2l=T!jJ:bBvB.qQ5D;iH",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
-                                            "type": "Number",
-                                            "id": "%bCx*J1di?T)Ag8Q3T/d",
+                                            "type": "Message",
+                                            "id": ".)V}L.p3z@o$J,G#Y1,{",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "Text",
+                                                  "id": "Xg`v0N/{?p[TXDOBGo*-",
+                                                  "fields": {
+                                                    "TEXT": "We have lost a flag to the enemy"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "subroutineArgumentBlock",
+                                            "id": "cQ.vFX?2-bCNqRmVD.#r",
                                             "fields": {
-                                              "NUM": 0.1
+                                              "ARGUMENT_INDEX": "1"
                                             }
                                           }
                                         }
                                       },
                                       "next": {
                                         "block": {
-                                          "type": "TriggerAudio",
-                                          "id": "pB.~G;d;fX+TDD9,5l:(",
+                                          "type": "ShowHighlightedGameModeMessage",
+                                          "id": "KakMn,!ICIivX3oI`i[i",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
-                                                "type": "SoundsItem",
-                                                "id": "(a:9d;2J~m+nP=tG8=oz",
-                                                "fields": {
-                                                  "VALUE-0": "Sounds",
-                                                  "VALUE-1": "ObjectiveCappingComplete"
+                                                "type": "Message",
+                                                "id": "^e(#d7:oC_dg7N}ZI2@y",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "Text",
+                                                      "id": "-2cWz%B;`+]bL1_lH25K",
+                                                      "fields": {
+                                                        "TEXT": "We have lost a flag to the enemy"
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             },
                                             "VALUE-1": {
                                               "block": {
                                                 "type": "subroutineArgumentBlock",
-                                                "id": "kenx[)q7*Xlq^X6.Ub-G",
+                                                "id": "j`]`j(SZv6z7)r{9fer)",
                                                 "fields": {
-                                                  "ARGUMENT_INDEX": "0"
+                                                  "ARGUMENT_INDEX": "1"
                                                 }
                                               }
                                             }
                                           },
                                           "next": {
                                             "block": {
-                                              "type": "TriggerAudio",
-                                              "id": "uw^^ZNmpW9R7Fb$7HbW#",
+                                              "type": "Wait",
+                                              "id": "KV{O5.H6ONN5B8T7zFSz",
                                               "inputs": {
                                                 "VALUE-0": {
                                                   "block": {
-                                                    "type": "VoiceOversItem",
-                                                    "id": "rYgY:TtEUW{s_u1kq%Vc",
+                                                    "type": "Number",
+                                                    "id": "%bCx*J1di?T)Ag8Q3T/d",
                                                     "fields": {
-                                                      "VALUE-0": "VoiceOvers",
-                                                      "VALUE-1": "ObjectiveTaken_Friendly"
-                                                    }
-                                                  }
-                                                },
-                                                "VALUE-1": {
-                                                  "block": {
-                                                    "type": "subroutineArgumentBlock",
-                                                    "id": "zLav]f,[hj/]p*N*l+rX",
-                                                    "fields": {
-                                                      "ARGUMENT_INDEX": "0"
+                                                      "NUM": 0.1
                                                     }
                                                   }
                                                 }
                                               },
                                               "next": {
                                                 "block": {
-                                                  "type": "ShowEventGameModeMessage",
-                                                  "id": "2l=T!jJ:bBvB.qQ5D;iH",
+                                                  "type": "TriggerAudio",
+                                                  "id": "pB.~G;d;fX+TDD9,5l:(",
                                                   "inputs": {
                                                     "VALUE-0": {
                                                       "block": {
-                                                        "type": "Message",
-                                                        "id": ".)V}L.p3z@o$J,G#Y1,{",
-                                                        "inputs": {
-                                                          "VALUE-0": {
-                                                            "block": {
-                                                              "type": "Text",
-                                                              "id": "Xg`v0N/{?p[TXDOBGo*-",
-                                                              "fields": {
-                                                                "TEXT": "We have lost a flag to the enemy"
-                                                              }
-                                                            }
-                                                          }
+                                                        "type": "SoundsItem",
+                                                        "id": "(a:9d;2J~m+nP=tG8=oz",
+                                                        "fields": {
+                                                          "VALUE-0": "Sounds",
+                                                          "VALUE-1": "ObjectiveCappingComplete"
                                                         }
                                                       }
                                                     },
                                                     "VALUE-1": {
                                                       "block": {
                                                         "type": "subroutineArgumentBlock",
-                                                        "id": "cQ.vFX?2-bCNqRmVD.#r",
+                                                        "id": "kenx[)q7*Xlq^X6.Ub-G",
                                                         "fields": {
-                                                          "ARGUMENT_INDEX": "1"
+                                                          "ARGUMENT_INDEX": "0"
                                                         }
                                                       }
                                                     }
                                                   },
                                                   "next": {
                                                     "block": {
-                                                      "type": "ShowHighlightedGameModeMessage",
-                                                      "id": "KakMn,!ICIivX3oI`i[i",
+                                                      "type": "TriggerAudio",
+                                                      "id": "uw^^ZNmpW9R7Fb$7HbW#",
                                                       "inputs": {
                                                         "VALUE-0": {
                                                           "block": {
-                                                            "type": "Message",
-                                                            "id": "^e(#d7:oC_dg7N}ZI2@y",
-                                                            "inputs": {
-                                                              "VALUE-0": {
-                                                                "block": {
-                                                                  "type": "Text",
-                                                                  "id": "-2cWz%B;`+]bL1_lH25K",
-                                                                  "fields": {
-                                                                    "TEXT": "We have lost a flag to the enemy"
-                                                                  }
-                                                                }
-                                                              }
+                                                            "type": "VoiceOversItem",
+                                                            "id": "rYgY:TtEUW{s_u1kq%Vc",
+                                                            "fields": {
+                                                              "VALUE-0": "VoiceOvers",
+                                                              "VALUE-1": "ObjectiveTaken_Friendly"
                                                             }
                                                           }
                                                         },
                                                         "VALUE-1": {
                                                           "block": {
                                                             "type": "subroutineArgumentBlock",
-                                                            "id": "j`]`j(SZv6z7)r{9fer)",
+                                                            "id": "zLav]f,[hj/]p*N*l+rX",
                                                             "fields": {
-                                                              "ARGUMENT_INDEX": "1"
+                                                              "ARGUMENT_INDEX": "0"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "ShowEventGameModeMessage",
+                                                          "id": "$N*jQg_`.:L.kFK?FDy0",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "Message",
+                                                                "id": "2PyXDSsK;Z[zR0Q3MkyD",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "Text",
+                                                                      "id": "F,iELs9Kq`bC#Kq6I)(H",
+                                                                      "fields": {
+                                                                        "TEXT": "We have captured a flag!"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "subroutineArgumentBlock",
+                                                                "id": "+Hwp-a_E1b/cG(`.gd^P",
+                                                                "fields": {
+                                                                  "ARGUMENT_INDEX": "0"
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "next": {
+                                                            "block": {
+                                                              "type": "ShowHighlightedGameModeMessage",
+                                                              "id": "e}b(TW%4f7XK89kD(.oJ",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "Message",
+                                                                    "id": "Z0nR8ufqLr$e-s0gxl}Z",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "Text",
+                                                                          "id": "|X_D#tu9(55wd,%Lze~Q",
+                                                                          "fields": {
+                                                                            "TEXT": "We have captured a flag!"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "VALUE-1": {
+                                                                  "block": {
+                                                                    "type": "subroutineArgumentBlock",
+                                                                    "id": "vt5%gsu#SHX3IDKWXJ}x",
+                                                                    "fields": {
+                                                                      "ARGUMENT_INDEX": "0"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
                                                             }
                                                           }
                                                         }
@@ -5426,7 +5494,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 11841,
+        "y": 11898,
         "extraState": {
           "subroutineName": "showPlayerMessages"
         },
@@ -6164,7 +6232,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 12952,
+        "y": 13009,
         "extraState": {
           "subroutineName": "tick"
         },
@@ -6471,8 +6539,8 @@
       {
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
-        "x": -3,
-        "y": 16550,
+        "x": 0,
+        "y": 16556,
         "extraState": {
           "subroutineName": "initFlagPositions"
         },
@@ -9721,7 +9789,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 10668,
+        "y": 11581,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -9817,7 +9885,7 @@
         "type": "subroutineBlock",
         "id": "[f*KuG}{U[?u*?$h`hQD",
         "x": 0,
-        "y": 9907,
+        "y": 9875,
         "extraState": {
           "subroutineName": "onFlagCarrierDied",
           "parameters": [
@@ -10093,46 +10161,59 @@
                           },
                           "next": {
                             "block": {
-                              "type": "If",
-                              "id": "l0xfW_FdEmrnQ~2UV`5u",
-                              "extraState": {
-                                "elseif": 0,
-                                "else": 1
-                              },
+                              "type": "SetVariable",
+                              "id": "RRUPK6AjMMuFpVMldvQ1",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
-                                    "type": "Equals",
-                                    "id": "17,EnbKwT`8@z:%_~UI+",
+                                    "type": "variableReferenceBlock",
+                                    "id": "?3]P6hX(cmIP_H}2Co+6",
+                                    "extraState": {
+                                      "isObjectVar": true
+                                    },
+                                    "fields": {
+                                      "OBJECTTYPE": "TeamId",
+                                      "VAR": {
+                                        "id": "1~uA^Y%(XX.H!)%;G`0%"
+                                      }
+                                    },
                                     "inputs": {
-                                      "VALUE-0": {
+                                      "OBJECT": {
                                         "block": {
-                                          "type": "GetTeamId",
-                                          "id": "=7Ry))`#8g4R]h_JSpgu",
+                                          "type": "GetVariable",
+                                          "id": "13K.1#_AU~JZD`,CA;e@",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
-                                                "type": "subroutineArgumentBlock",
-                                                "id": "ucrDNOx]42@r|0{YD.Ey",
+                                                "type": "variableReferenceBlock",
+                                                "id": "`?L8(Q9F#;ZE/1NNp3]%",
+                                                "extraState": {
+                                                  "isObjectVar": true
+                                                },
                                                 "fields": {
-                                                  "ARGUMENT_INDEX": "0"
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "VALUE-1": {
-                                        "block": {
-                                          "type": "GetTeamId",
-                                          "id": ".@^z*n.3sg+P2]DAETxw",
-                                          "inputs": {
-                                            "VALUE-0": {
-                                              "block": {
-                                                "type": "Number",
-                                                "id": "3~hicX8BE{+|$;$b[h8b",
-                                                "fields": {
-                                                  "NUM": 1
+                                                  "OBJECTTYPE": "TeamId",
+                                                  "VAR": {
+                                                    "id": "7w/Nu/iw7+6VCz]Of5R5"
+                                                  }
+                                                },
+                                                "inputs": {
+                                                  "OBJECT": {
+                                                    "block": {
+                                                      "type": "GetTeamId",
+                                                      "id": "fA*6I.I7k|w~wSfDK*?R",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "subroutineArgumentBlock",
+                                                            "id": "Dt!%1D(IZN6}k?eG[UcN",
+                                                            "fields": {
+                                                              "ARGUMENT_INDEX": "0"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             }
@@ -10142,135 +10223,74 @@
                                     }
                                   }
                                 },
-                                "DO": {
+                                "VALUE-1": {
                                   "block": {
-                                    "type": "SetVariable",
-                                    "id": "RRUPK6AjMMuFpVMldvQ1",
+                                    "type": "GetSoldierState",
+                                    "id": "@C%^m*^CY^H]5eJ^~y.L",
                                     "inputs": {
                                       "VALUE-0": {
                                         "block": {
-                                          "type": "variableReferenceBlock",
-                                          "id": "?3]P6hX(cmIP_H}2Co+6",
-                                          "extraState": {
-                                            "isObjectVar": true
-                                          },
+                                          "type": "subroutineArgumentBlock",
+                                          "id": "e4`ZJ|{RFUs3!HXD=|`a",
                                           "fields": {
-                                            "OBJECTTYPE": "TeamId",
-                                            "VAR": {
-                                              "id": "1~uA^Y%(XX.H!)%;G`0%"
-                                            }
-                                          },
-                                          "inputs": {
-                                            "OBJECT": {
-                                              "block": {
-                                                "type": "GetTeamId",
-                                                "id": "]7~#wc8_.w*K~xzNrK=t",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "Number",
-                                                      "id": "{9J,@2LqU)iB_@8d]uh$",
-                                                      "fields": {
-                                                        "NUM": 2
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
+                                            "ARGUMENT_INDEX": "0"
                                           }
                                         }
                                       },
                                       "VALUE-1": {
                                         "block": {
-                                          "type": "GetSoldierState",
-                                          "id": "@C%^m*^CY^H]5eJ^~y.L",
-                                          "inputs": {
-                                            "VALUE-0": {
-                                              "block": {
-                                                "type": "subroutineArgumentBlock",
-                                                "id": "e4`ZJ|{RFUs3!HXD=|`a",
-                                                "fields": {
-                                                  "ARGUMENT_INDEX": "0"
-                                                }
-                                              }
-                                            },
-                                            "VALUE-1": {
-                                              "block": {
-                                                "type": "SoldierStateVectorItem",
-                                                "id": "SXrfo9@+oL)wzc%3n3wG",
-                                                "fields": {
-                                                  "VALUE-0": "SoldierStateVector",
-                                                  "VALUE-1": "GetPosition"
-                                                }
+                                          "type": "SoldierStateVectorItem",
+                                          "id": "SXrfo9@+oL)wzc%3n3wG",
+                                          "fields": {
+                                            "VALUE-0": "SoldierStateVector",
+                                            "VALUE-1": "GetPosition"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "ShowEventGameModeMessage",
+                                  "id": "?FXY]-jbMS0$FjyNrG45",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Message",
+                                        "id": "*)rh{hG#cCCk0-5}aW6?",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "Text",
+                                              "id": ".x)IT1V?Vlb=EiEA^fpy",
+                                              "fields": {
+                                                "TEXT": "The flag was dropped - retake it!"
                                               }
                                             }
                                           }
                                         }
                                       }
                                     }
-                                  }
-                                },
-                                "ELSE": {
-                                  "block": {
-                                    "type": "SetVariable",
-                                    "id": "N|5f!6SZ(.%tP|Mmca,l",
-                                    "inputs": {
-                                      "VALUE-0": {
-                                        "block": {
-                                          "type": "variableReferenceBlock",
-                                          "id": "I%K]uS3WAatLeHPi04RL",
-                                          "extraState": {
-                                            "isObjectVar": true
-                                          },
-                                          "fields": {
-                                            "OBJECTTYPE": "TeamId",
-                                            "VAR": {
-                                              "id": "1~uA^Y%(XX.H!)%;G`0%"
-                                            }
-                                          },
-                                          "inputs": {
-                                            "OBJECT": {
-                                              "block": {
-                                                "type": "GetTeamId",
-                                                "id": "k#TPY3d3]iX*];]:P3%#",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "Number",
-                                                      "id": "op.Wk;q[n:BVQ*!_O$ku",
-                                                      "fields": {
-                                                        "NUM": 1
-                                                      }
-                                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "ShowHighlightedGameModeMessage",
+                                      "id": "lU?v}vP2Zb$S@`D:;7^L",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Message",
+                                            "id": "iz/nlv7#QnCK~t85CAle",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "Text",
+                                                  "id": "]p74XEWD}OS[6!U_O2xK",
+                                                  "fields": {
+                                                    "TEXT": "The flag was dropped - retake it!"
                                                   }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
-                                      "VALUE-1": {
-                                        "block": {
-                                          "type": "GetSoldierState",
-                                          "id": "Swo7jwzMq)qZ4J:]Ceml",
-                                          "inputs": {
-                                            "VALUE-0": {
-                                              "block": {
-                                                "type": "subroutineArgumentBlock",
-                                                "id": "JsppkZyn{764a$3[LjkO",
-                                                "fields": {
-                                                  "ARGUMENT_INDEX": "0"
-                                                }
-                                              }
-                                            },
-                                            "VALUE-1": {
-                                              "block": {
-                                                "type": "SoldierStateVectorItem",
-                                                "id": "NedVSa{pJ.`,-C4^Y#I}",
-                                                "fields": {
-                                                  "VALUE-0": "SoldierStateVector",
-                                                  "VALUE-1": "GetPosition"
                                                 }
                                               }
                                             }
@@ -10297,7 +10317,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 13435,
+        "y": 13492,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -11994,7 +12014,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 15766,
+        "y": 15823,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
