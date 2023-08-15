@@ -7925,6 +7925,54 @@
                                                                       }
                                                                     }
                                                                   }
+                                                                },
+                                                                "next": {
+                                                                  "block": {
+                                                                    "type": "Wait",
+                                                                    "id": "sKbQHe#jfraaQ%1@qFXH",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "Number",
+                                                                          "id": ";nFX*288Suzn,AQnCOvZ",
+                                                                          "fields": {
+                                                                            "NUM": 10
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "next": {
+                                                                      "block": {
+                                                                        "type": "EndRound",
+                                                                        "id": "9Ui4Cs=Veq:1CCCHZ/kZ",
+                                                                        "inputs": {
+                                                                          "VALUE-0": {
+                                                                            "block": {
+                                                                              "type": "GetTeamId",
+                                                                              "id": "VKU,Mr}aBI/fsD8u.ZTK",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "Number",
+                                                                                    "id": "9v[G7`X*vi;05IQh*]Cm",
+                                                                                    "fields": {
+                                                                                      "NUM": 0
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "next": {
+                                                                          "block": {
+                                                                            "type": "Abort",
+                                                                            "id": "MSJBkb!#/4D!*H@{kUvE"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
                                                                 }
                                                               }
                                                             }
@@ -9885,7 +9933,7 @@
         "type": "subroutineBlock",
         "id": "[f*KuG}{U[?u*?$h`hQD",
         "x": 0,
-        "y": 9875,
+        "y": 9907,
         "extraState": {
           "subroutineName": "onFlagCarrierDied",
           "parameters": [
