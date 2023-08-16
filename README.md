@@ -2,14 +2,12 @@
 
 ## Experience Codes
 
-* Developemnt Version: `ABENTC`
 * Main Version: `ABENTC`
 
 ## Gameplay Rules
 
-The OG CTF of BF3 - Get to the opposing flag to pick it up and carry it back to your base.  
+The OG CTF of BF3 - Get to the opposing flag to pick it up and carry it back to your base to score a point.  
 To pickup or deliver a flag, the player must be on foot and not in a vehicle.  
-While carrying the flag you can't zoom or use your character's specialty.  
 If the flag carrier dies, the flag will be dropped at their current location.  
 A dropped flag 
 * can be picked up by the opposing team again
@@ -25,16 +23,23 @@ To score, the own flag must be at the base when delivering the enemy flag.
 
 ## Vehicle Restrictions
 
-* 1x M1A5 / T28
-* 2x LCAA Hovercraft
-* 2x LATV4 Recon
+* 1x Main Battle Tank
+* 4x Light transport Vehicles
 * 2x Jet
 * 2x Attack Helicopter
-* 1x CAV Brawler
+* 1x Heavy Transport Vehicle
 
 ## Map Layouts
 
-To be done...
+### Flashpoint
+
+### Spearhead
+
+### Stranded
+
+### Renewal
+
+### Arica Harbor
 
 # Gameplay
 
