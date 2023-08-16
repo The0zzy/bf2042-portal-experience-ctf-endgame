@@ -2077,6 +2077,31 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "SendErrorReport",
+                                                            "id": "9XYO-XOJK0am+dhi@{|d",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "Message",
+                                                                  "id": "9Zuia6?|TMp=V@*m8h/#",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "Text",
+                                                                        "id": "7zlMJ7^T2X5kWwBBu!u|",
+                                                                        "fields": {
+                                                                          "TEXT": "=== CARRIER LEFT THE GAME (TEAM 2) ==="
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -2242,6 +2267,31 @@
                                                                         "id": "mbHvCe6+)@4O-Y}iRUon",
                                                                         "fields": {
                                                                           "NUM": 1
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "SendErrorReport",
+                                                                "id": "56F1ZVb{;y)Zq`o01~Y!",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "Message",
+                                                                      "id": "2;fc|g{Y:2aDa,6Sgm3-",
+                                                                      "inputs": {
+                                                                        "VALUE-0": {
+                                                                          "block": {
+                                                                            "type": "Text",
+                                                                            "id": "`yejS#SfWFy@O;x$y~_@",
+                                                                            "fields": {
+                                                                              "TEXT": "=== CARRIER LEFT THE GAME (TEAM1) ==="
+                                                                            }
+                                                                          }
                                                                         }
                                                                       }
                                                                     }
@@ -5082,6 +5132,31 @@
                                                                                                 "block": {
                                                                                                   "type": "EventTeam",
                                                                                                   "id": "%)N@^:B$UGNKn)r:`?,5"
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "next": {
+                                                                                  "block": {
+                                                                                    "type": "SendErrorReport",
+                                                                                    "id": "%gekm#fpOVq(G:FU}BQg",
+                                                                                    "inputs": {
+                                                                                      "VALUE-0": {
+                                                                                        "block": {
+                                                                                          "type": "Message",
+                                                                                          "id": "0bVvBb}AO@H*E.9MDQ=L",
+                                                                                          "inputs": {
+                                                                                            "VALUE-0": {
+                                                                                              "block": {
+                                                                                                "type": "Text",
+                                                                                                "id": "NNLs86)0t*kl1(dnhYy]",
+                                                                                                "fields": {
+                                                                                                  "TEXT": "=== INVALID CARRIER OF TEAM DETECTED ==="
                                                                                                 }
                                                                                               }
                                                                                             }
