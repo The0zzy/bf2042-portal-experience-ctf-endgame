@@ -2,7 +2,8 @@
 
 ## Experience Codes
 
-* Main Version: `ABENTC`
+* 2042 Version: `ABENTC`
+* BF3 Version: `ABEWX7`
 
 ## Gameplay Rules
 
