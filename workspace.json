@@ -5951,7 +5951,7 @@
         "type": "subroutineBlock",
         "id": ":OQL40tp2E1w!,Wx`Y=C",
         "x": 0,
-        "y": 12228,
+        "y": 12367,
         "extraState": {
           "subroutineName": "flagCaptured",
           "parameters": [
@@ -6658,7 +6658,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 14177,
+        "y": 14316,
         "extraState": {
           "subroutineName": "showPlayerMessages"
         },
@@ -8450,7 +8450,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 17622,
+        "y": 17761,
         "extraState": {
           "subroutineName": "tick"
         },
@@ -9238,7 +9238,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 21559,
+        "y": 21698,
         "extraState": {
           "subroutineName": "initFlagPositions"
         },
@@ -11585,7 +11585,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 16647,
+        "y": 16786,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -12321,7 +12321,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 18335,
+        "y": 18474,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -14136,7 +14136,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 20890,
+        "y": 21029,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
@@ -15185,6 +15185,51 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "If",
+                                      "id": "[ZQF31Q~:smtt|l!^88{",
+                                      "extraState": {},
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "GetVariable",
+                                            "id": "HP]GA,Dht]nk.p*0~N}i",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "variableReferenceBlock",
+                                                  "id": "EynC;kz6YKU(7Zi?yWLw",
+                                                  "extraState": {
+                                                    "isObjectVar": false
+                                                  },
+                                                  "fields": {
+                                                    "OBJECTTYPE": "Global",
+                                                    "VAR": {
+                                                      "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "DO": {
+                                          "block": {
+                                            "type": "subroutineInstanceBlock",
+                                            "id": "`W!R3ii5M;oEZXpN`9oR",
+                                            "extraState": {
+                                              "subroutineName": "checkWinCondition",
+                                              "parameters": []
+                                            },
+                                            "fields": {
+                                              "SUBROUTINE_NAME": "checkWinCondition"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
                                   }
                                 }
                               }
@@ -15204,7 +15249,7 @@
         "type": "subroutineBlock",
         "id": "_[+jW,/BR#B[^ty0ZyGa",
         "x": 0,
-        "y": 16964,
+        "y": 17103,
         "extraState": {
           "subroutineName": "stopCarrierMessageTimer",
           "parameters": [
@@ -15315,7 +15360,7 @@
         "type": "subroutineBlock",
         "id": "-D`s]}Qw2w*X8K2W.Atc",
         "x": 0,
-        "y": 17297,
+        "y": 17436,
         "extraState": {
           "subroutineName": "restartCarrierMessgeTimer",
           "parameters": [
@@ -15416,7 +15461,7 @@
         "type": "subroutineBlock",
         "id": "f[fShd1YTnT`8!+0r498",
         "x": 0,
-        "y": 24848,
+        "y": 24987,
         "extraState": {
           "subroutineName": "initFlagIcons",
           "parameters": []
@@ -16279,7 +16324,7 @@
         "type": "subroutineBlock",
         "id": "#TT^8vU@y~!5l3$rX)OA",
         "x": 0,
-        "y": 13561,
+        "y": 13700,
         "extraState": {
           "subroutineName": "checkWinCondition",
           "parameters": []
