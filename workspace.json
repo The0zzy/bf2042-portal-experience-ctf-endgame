@@ -6668,49 +6668,134 @@
         "inputs": {
           "ACTIONS": {
             "block": {
-              "type": "DisplayCustomNotificationMessage",
-              "id": "6I{O3$GgOj{(@j4@=Lxt",
+              "type": "If",
+              "id": "411(ofH]Ev?)82__G1z2",
+              "extraState": {
+                "elseif": 0,
+                "else": 1
+              },
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "Message",
-                    "id": "6qZ,:hf%hgcG|Y{akIug",
+                    "type": "GetVariable",
+                    "id": "45-2`y[;f5z*[SB*T0(b",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
-                          "type": "Text",
-                          "id": "Mtk}-no$~p{/]B{@I7ye",
+                          "type": "variableReferenceBlock",
+                          "id": "gTkCbHm{jBzoNwZIJ/x=",
+                          "extraState": {
+                            "isObjectVar": false
+                          },
                           "fields": {
-                            "TEXT": "OBJECTIVE: Capture the enemy flag"
+                            "OBJECTTYPE": "Global",
+                            "VAR": {
+                              "id": ".JZ)e]sXW:m5,d*Wc70i"
+                            }
                           }
                         }
                       }
                     }
                   }
                 },
-                "VALUE-1": {
+                "DO": {
                   "block": {
-                    "type": "CustomMessagesItem",
-                    "id": "Nm|]M7;-P)Rxy}Gt39sB",
-                    "fields": {
-                      "VALUE-0": "CustomMessages",
-                      "VALUE-1": "HeaderText"
+                    "type": "DisplayCustomNotificationMessage",
+                    "id": ";AP;$w$rN3eo$8Pj6U.S",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "Message",
+                          "id": "{5,cRj@bW[P/exC|WEx=",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Text",
+                                "id": "U]v=vQnZI.iFRDfGfvl-",
+                                "fields": {
+                                  "TEXT": "OVERTIME!"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "CustomMessagesItem",
+                          "id": ";CSR5Uso!0z=:9^91QC+",
+                          "fields": {
+                            "VALUE-0": "CustomMessages",
+                            "VALUE-1": "HeaderText"
+                          }
+                        }
+                      },
+                      "VALUE-2": {
+                        "block": {
+                          "type": "Number",
+                          "id": "LlzM?pGg}vKH%UVW:FS|",
+                          "fields": {
+                            "NUM": 2
+                          }
+                        }
+                      },
+                      "VALUE-3": {
+                        "block": {
+                          "type": "EventPlayer",
+                          "id": "Pp~Np$ykXcg^KlbeWD0H"
+                        }
+                      }
                     }
                   }
                 },
-                "VALUE-2": {
+                "ELSE": {
                   "block": {
-                    "type": "Number",
-                    "id": "B2%4Xs2hCk,6Fq$8?78E",
-                    "fields": {
-                      "NUM": 2
+                    "type": "DisplayCustomNotificationMessage",
+                    "id": "i::6[Du,8Lg/df];0bgE",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "Message",
+                          "id": "r:OX8l]Dk?@`J7*2FDK8",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Text",
+                                "id": "A`].?H6!M_6f]~X|rsUY",
+                                "fields": {
+                                  "TEXT": "OBJECTIVE: Capture the enemy flag"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "CustomMessagesItem",
+                          "id": "DSv-3mo?V8{FG(}H4[hA",
+                          "fields": {
+                            "VALUE-0": "CustomMessages",
+                            "VALUE-1": "HeaderText"
+                          }
+                        }
+                      },
+                      "VALUE-2": {
+                        "block": {
+                          "type": "Number",
+                          "id": "TxFRG/57|%j^;o]O=OM0",
+                          "fields": {
+                            "NUM": 2
+                          }
+                        }
+                      },
+                      "VALUE-3": {
+                        "block": {
+                          "type": "EventPlayer",
+                          "id": "t1|@|f:?Rlk9OH[(Tl*k"
+                        }
+                      }
                     }
-                  }
-                },
-                "VALUE-3": {
-                  "block": {
-                    "type": "EventPlayer",
-                    "id": "ttLEGbfy2H3Ar4QB3i`V"
                   }
                 }
               },
@@ -8450,7 +8535,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 17761,
+        "y": 17940,
         "extraState": {
           "subroutineName": "tick"
         },
@@ -9238,7 +9323,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 21698,
+        "y": 21877,
         "extraState": {
           "subroutineName": "initFlagPositions"
         },
@@ -11585,7 +11670,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 16786,
+        "y": 16965,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -12321,7 +12406,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 18474,
+        "y": 18653,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -14136,7 +14221,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 21029,
+        "y": 21208,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
@@ -15249,7 +15334,7 @@
         "type": "subroutineBlock",
         "id": "_[+jW,/BR#B[^ty0ZyGa",
         "x": 0,
-        "y": 17103,
+        "y": 17282,
         "extraState": {
           "subroutineName": "stopCarrierMessageTimer",
           "parameters": [
@@ -15360,7 +15445,7 @@
         "type": "subroutineBlock",
         "id": "-D`s]}Qw2w*X8K2W.Atc",
         "x": 0,
-        "y": 17436,
+        "y": 17615,
         "extraState": {
           "subroutineName": "restartCarrierMessgeTimer",
           "parameters": [
@@ -15461,7 +15546,7 @@
         "type": "subroutineBlock",
         "id": "f[fShd1YTnT`8!+0r498",
         "x": 0,
-        "y": 24987,
+        "y": 25166,
         "extraState": {
           "subroutineName": "initFlagIcons",
           "parameters": []
