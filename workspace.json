@@ -6592,50 +6592,68 @@
                                                                       },
                                                                       "next": {
                                                                         "block": {
-                                                                          "type": "ShowEventGameModeMessage",
-                                                                          "id": "$N*jQg_`.:L.kFK?FDy0",
+                                                                          "type": "TriggerAudioAtLocation",
+                                                                          "id": "X,?moCnH7%j~PQfhYG1Z",
                                                                           "inputs": {
                                                                             "VALUE-0": {
                                                                               "block": {
-                                                                                "type": "Message",
-                                                                                "id": "2PyXDSsK;Z[zR0Q3MkyD",
-                                                                                "inputs": {
-                                                                                  "VALUE-0": {
-                                                                                    "block": {
-                                                                                      "type": "Text",
-                                                                                      "id": "F,iELs9Kq`bC#Kq6I)(H",
-                                                                                      "fields": {
-                                                                                        "TEXT": "We have captured a flag!"
-                                                                                      }
-                                                                                    }
-                                                                                  }
+                                                                                "type": "LocationalSoundsItem",
+                                                                                "id": "5O(1/%qGJKK1e+!uj9IQ",
+                                                                                "fields": {
+                                                                                  "VALUE-0": "LocationalSounds",
+                                                                                  "VALUE-1": "Ping"
                                                                                 }
                                                                               }
                                                                             },
                                                                             "VALUE-1": {
                                                                               "block": {
-                                                                                "type": "subroutineArgumentBlock",
-                                                                                "id": "+Hwp-a_E1b/cG(`.gd^P",
-                                                                                "fields": {
-                                                                                  "ARGUMENT_INDEX": "0"
+                                                                                "type": "GetVariable",
+                                                                                "id": "EqCU%Q7DBFKZdv~e;1JX",
+                                                                                "inputs": {
+                                                                                  "VALUE-0": {
+                                                                                    "block": {
+                                                                                      "type": "variableReferenceBlock",
+                                                                                      "id": "pgesjD[0R$6Wyki.=3]w",
+                                                                                      "extraState": {
+                                                                                        "isObjectVar": true
+                                                                                      },
+                                                                                      "fields": {
+                                                                                        "OBJECTTYPE": "TeamId",
+                                                                                        "VAR": {
+                                                                                          "id": "P,lu9;8LHd-SE=vXS`QM"
+                                                                                        }
+                                                                                      },
+                                                                                      "inputs": {
+                                                                                        "OBJECT": {
+                                                                                          "block": {
+                                                                                            "type": "subroutineArgumentBlock",
+                                                                                            "id": "1UkRDB]{k0`g]lY%qGjp",
+                                                                                            "fields": {
+                                                                                              "ARGUMENT_INDEX": "0"
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
                                                                                 }
                                                                               }
                                                                             }
                                                                           },
                                                                           "next": {
                                                                             "block": {
-                                                                              "type": "ShowHighlightedGameModeMessage",
-                                                                              "id": "e}b(TW%4f7XK89kD(.oJ",
+                                                                              "type": "ShowEventGameModeMessage",
+                                                                              "id": "$N*jQg_`.:L.kFK?FDy0",
                                                                               "inputs": {
                                                                                 "VALUE-0": {
                                                                                   "block": {
                                                                                     "type": "Message",
-                                                                                    "id": "Z0nR8ufqLr$e-s0gxl}Z",
+                                                                                    "id": "2PyXDSsK;Z[zR0Q3MkyD",
                                                                                     "inputs": {
                                                                                       "VALUE-0": {
                                                                                         "block": {
                                                                                           "type": "Text",
-                                                                                          "id": "|X_D#tu9(55wd,%Lze~Q",
+                                                                                          "id": "F,iELs9Kq`bC#Kq6I)(H",
                                                                                           "fields": {
                                                                                             "TEXT": "We have captured a flag!"
                                                                                           }
@@ -6647,7 +6665,7 @@
                                                                                 "VALUE-1": {
                                                                                   "block": {
                                                                                     "type": "subroutineArgumentBlock",
-                                                                                    "id": "vt5%gsu#SHX3IDKWXJ}x",
+                                                                                    "id": "+Hwp-a_E1b/cG(`.gd^P",
                                                                                     "fields": {
                                                                                       "ARGUMENT_INDEX": "0"
                                                                                     }
@@ -6656,43 +6674,77 @@
                                                                               },
                                                                               "next": {
                                                                                 "block": {
-                                                                                  "type": "If",
-                                                                                  "id": "/,vk/mXSOUZb4yHV0{0z",
-                                                                                  "extraState": {},
+                                                                                  "type": "ShowHighlightedGameModeMessage",
+                                                                                  "id": "e}b(TW%4f7XK89kD(.oJ",
                                                                                   "inputs": {
                                                                                     "VALUE-0": {
                                                                                       "block": {
-                                                                                        "type": "GetVariable",
-                                                                                        "id": "1#R:`WW7.NG)IuuVAB|s",
+                                                                                        "type": "Message",
+                                                                                        "id": "Z0nR8ufqLr$e-s0gxl}Z",
                                                                                         "inputs": {
                                                                                           "VALUE-0": {
                                                                                             "block": {
-                                                                                              "type": "variableReferenceBlock",
-                                                                                              "id": "CC$x9#-(fwA3pl2[Ve9^",
-                                                                                              "extraState": {
-                                                                                                "isObjectVar": false
-                                                                                              },
+                                                                                              "type": "Text",
+                                                                                              "id": "|X_D#tu9(55wd,%Lze~Q",
                                                                                               "fields": {
-                                                                                                "OBJECTTYPE": "Global",
-                                                                                                "VAR": {
-                                                                                                  "id": ".JZ)e]sXW:m5,d*Wc70i"
-                                                                                                }
+                                                                                                "TEXT": "We have captured a flag!"
                                                                                               }
                                                                                             }
                                                                                           }
                                                                                         }
                                                                                       }
                                                                                     },
-                                                                                    "DO": {
+                                                                                    "VALUE-1": {
                                                                                       "block": {
-                                                                                        "type": "subroutineInstanceBlock",
-                                                                                        "id": ",!$-yX*e86Zy70}mzu?p",
-                                                                                        "extraState": {
-                                                                                          "subroutineName": "checkWinCondition",
-                                                                                          "parameters": []
-                                                                                        },
+                                                                                        "type": "subroutineArgumentBlock",
+                                                                                        "id": "vt5%gsu#SHX3IDKWXJ}x",
                                                                                         "fields": {
-                                                                                          "SUBROUTINE_NAME": "checkWinCondition"
+                                                                                          "ARGUMENT_INDEX": "0"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "next": {
+                                                                                    "block": {
+                                                                                      "type": "If",
+                                                                                      "id": "/,vk/mXSOUZb4yHV0{0z",
+                                                                                      "extraState": {},
+                                                                                      "inputs": {
+                                                                                        "VALUE-0": {
+                                                                                          "block": {
+                                                                                            "type": "GetVariable",
+                                                                                            "id": "1#R:`WW7.NG)IuuVAB|s",
+                                                                                            "inputs": {
+                                                                                              "VALUE-0": {
+                                                                                                "block": {
+                                                                                                  "type": "variableReferenceBlock",
+                                                                                                  "id": "CC$x9#-(fwA3pl2[Ve9^",
+                                                                                                  "extraState": {
+                                                                                                    "isObjectVar": false
+                                                                                                  },
+                                                                                                  "fields": {
+                                                                                                    "OBJECTTYPE": "Global",
+                                                                                                    "VAR": {
+                                                                                                      "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "DO": {
+                                                                                          "block": {
+                                                                                            "type": "subroutineInstanceBlock",
+                                                                                            "id": ",!$-yX*e86Zy70}mzu?p",
+                                                                                            "extraState": {
+                                                                                              "subroutineName": "checkWinCondition",
+                                                                                              "parameters": []
+                                                                                            },
+                                                                                            "fields": {
+                                                                                              "SUBROUTINE_NAME": "checkWinCondition"
+                                                                                            }
+                                                                                          }
                                                                                         }
                                                                                       }
                                                                                     }
@@ -6739,7 +6791,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 14748,
+        "y": 14815,
         "extraState": {
           "subroutineName": "showPlayerMessages",
           "parameters": []
@@ -6909,7 +6961,7 @@
                         "id": "Crd?WhIm7=#TMKsM052c",
                         "fields": {
                           "VALUE-0": "CustomMessages",
-                          "VALUE-1": "MessageText1"
+                          "VALUE-1": "MessageText2"
                         }
                       }
                     },
@@ -6944,7 +6996,7 @@
                                   "type": "Text",
                                   "id": "kfT`|6h70czn~ThOJe_R",
                                   "fields": {
-                                    "TEXT": "Remaining Flags ::: YOU: {} - ENEMY: {]"
+                                    "TEXT": "INTEL: Remaining Flags - YOU  {} : {}  ENEMY"
                                   }
                                 }
                               },
@@ -6955,8 +7007,16 @@
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
-                                        "type": "EventPlayer",
-                                        "id": "#t?#a2j@.)hZ`8?T]IAe"
+                                        "type": "GetTeamId",
+                                        "id": "`6e@J0I6rjSyF1Cm+9n}",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "EventPlayer",
+                                              "id": "(t)lr+!BW3LZxWy+vJ;-"
+                                            }
+                                          }
+                                        }
                                       }
                                     }
                                   }
@@ -7239,7 +7299,7 @@
                                                 "id": "o|GXAWLI4=e6fBKqC*(%",
                                                 "fields": {
                                                   "VALUE-0": "CustomMessages",
-                                                  "VALUE-1": "MessageText2"
+                                                  "VALUE-1": "MessageText1"
                                                 }
                                               }
                                             },
@@ -7682,47 +7742,30 @@
                                                                     },
                                                                     "next": {
                                                                       "block": {
-                                                                        "type": "Wait",
-                                                                        "id": "NwCeksnHKTUsx^a?xUPh",
+                                                                        "type": "ShowHighlightedGameModeMessage",
+                                                                        "id": "MbxREQZ/8t#x6N5De*f0",
                                                                         "inputs": {
                                                                           "VALUE-0": {
                                                                             "block": {
-                                                                              "type": "Number",
-                                                                              "id": "=trRNXPH%nA!cZf/Qn1n",
-                                                                              "fields": {
-                                                                                "NUM": 0.7
-                                                                              }
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "next": {
-                                                                          "block": {
-                                                                            "type": "ShowHighlightedGameModeMessage",
-                                                                            "id": "MbxREQZ/8t#x6N5De*f0",
-                                                                            "inputs": {
-                                                                              "VALUE-0": {
-                                                                                "block": {
-                                                                                  "type": "Message",
-                                                                                  "id": "QA_u;X17=00J*8HLhDZn",
-                                                                                  "inputs": {
-                                                                                    "VALUE-0": {
-                                                                                      "block": {
-                                                                                        "type": "Text",
-                                                                                        "id": "Hh.zVAtH0jVfodxQQde8",
-                                                                                        "fields": {
-                                                                                          "TEXT": "Return to your base to score!"
-                                                                                        }
-                                                                                      }
+                                                                              "type": "Message",
+                                                                              "id": "QA_u;X17=00J*8HLhDZn",
+                                                                              "inputs": {
+                                                                                "VALUE-0": {
+                                                                                  "block": {
+                                                                                    "type": "Text",
+                                                                                    "id": "Hh.zVAtH0jVfodxQQde8",
+                                                                                    "fields": {
+                                                                                      "TEXT": "Return to your base to score!"
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "VALUE-1": {
-                                                                                "block": {
-                                                                                  "type": "EventPlayer",
-                                                                                  "id": "z]:QWs9ohPAaqQ1dk*d`"
-                                                                                }
                                                                               }
+                                                                            }
+                                                                          },
+                                                                          "VALUE-1": {
+                                                                            "block": {
+                                                                              "type": "EventPlayer",
+                                                                              "id": "z]:QWs9ohPAaqQ1dk*d`"
                                                                             }
                                                                           }
                                                                         }
@@ -7915,7 +7958,7 @@
                                           "id": "0A$}t^20F7@d_Cwu}wGA",
                                           "fields": {
                                             "VALUE-0": "CustomMessages",
-                                            "VALUE-1": "MessageText2"
+                                            "VALUE-1": "MessageText3"
                                           }
                                         }
                                       },
@@ -8251,7 +8294,7 @@
                                               "id": "@VigdWQFhzY?Xo?+N(+x",
                                               "fields": {
                                                 "VALUE-0": "CustomMessages",
-                                                "VALUE-1": "MessageText2"
+                                                "VALUE-1": "MessageText3"
                                               }
                                             }
                                           },
@@ -8769,7 +8812,7 @@
                                                   "id": "#BK?@,Fdx!g{pGE|_RAw",
                                                   "fields": {
                                                     "VALUE-0": "CustomMessages",
-                                                    "VALUE-1": "MessageText3"
+                                                    "VALUE-1": "MessageText1"
                                                   }
                                                 }
                                               },
@@ -8812,7 +8855,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 18624,
+        "y": 18691,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -9601,7 +9644,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 22337,
+        "y": 22404,
         "extraState": {
           "subroutineName": "initFlagPositions",
           "parameters": []
@@ -15182,7 +15225,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 17649,
+        "y": 17716,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -15918,7 +15961,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 19337,
+        "y": 19404,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -17615,7 +17658,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 21668,
+        "y": 21735,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
@@ -18728,7 +18771,7 @@
         "type": "subroutineBlock",
         "id": "_[+jW,/BR#B[^ty0ZyGa",
         "x": 0,
-        "y": 17966,
+        "y": 18033,
         "extraState": {
           "subroutineName": "stopCarrierMessageTimer",
           "parameters": [
@@ -18839,7 +18882,7 @@
         "type": "subroutineBlock",
         "id": "-D`s]}Qw2w*X8K2W.Atc",
         "x": 0,
-        "y": 18299,
+        "y": 18366,
         "extraState": {
           "subroutineName": "restartCarrierMessgeTimer",
           "parameters": [
@@ -18940,7 +18983,7 @@
         "type": "subroutineBlock",
         "id": "f[fShd1YTnT`8!+0r498",
         "x": 0,
-        "y": 30139,
+        "y": 30206,
         "extraState": {
           "subroutineName": "initFlagIcons",
           "parameters": []
@@ -19803,7 +19846,7 @@
         "type": "subroutineBlock",
         "id": "#TT^8vU@y~!5l3$rX)OA",
         "x": 0,
-        "y": 13735,
+        "y": 13802,
         "extraState": {
           "subroutineName": "checkWinCondition",
           "parameters": []
@@ -20089,7 +20132,7 @@
         "type": "subroutineBlock",
         "id": "9-}7kU1+Lm$IZR6(:.3x",
         "x": 0,
-        "y": 14351,
+        "y": 14418,
         "extraState": {
           "subroutineName": "debugFlagPositions",
           "parameters": []
