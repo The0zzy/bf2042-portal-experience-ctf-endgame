@@ -7,8 +7,8 @@
 
 ## Gameplay Rules
 
-Each team is owning a capture point on which a flag is located. In total there are 5 flags stored at this capture point (represented as conquest tickets).
-The goal is to steal all the enemy flags as the first team.
+Each team is owning a capture point on which a flag is located. In total there are 5 flags stored at this capture point (represented as conquest tickets).  
+The goal is to steal all the enemy flags as the first team.  
 Get to the opposing flag to pick it up and carry it back to your base to score a point.  
 To pick up or deliver a flag, the player must be on foot and not in a vehicle and within a 3m proximity to the flag (just walk over it).  
 If the flag carrier dies, the flag will be dropped at their current location.
