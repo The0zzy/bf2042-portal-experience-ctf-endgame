@@ -1,4 +1,4 @@
-# BF2042 - Capture The Flag (based on BF3 End Game Extension)
+# BF2042 - Capture The Flag (mixed INF-Only & AOW)
 
 ## Experience Codes
 
