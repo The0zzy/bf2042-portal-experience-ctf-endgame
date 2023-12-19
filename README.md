@@ -84,7 +84,7 @@ To score, the own flag must be at the base when delivering the enemy flag.
 
 ![](resources/images/map-layouts/discarded.png "map layout")
 
-### Exposure (all out warfare)
+### Exposure (infantry only)
 
 ![](resources/images/map-layouts/exposure.png "map layout")
 
