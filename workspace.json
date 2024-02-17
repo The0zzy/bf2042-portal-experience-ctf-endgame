@@ -5951,15 +5951,14 @@
                                                                             },
                                                                             "ACTIONS": {
                                                                               "block": {
-                                                                                "type": "EndRound",
-                                                                                "id": "ry=!K^IIjs@K^n~8fn:Z",
-                                                                                "inputs": {
-                                                                                  "VALUE-0": {
-                                                                                    "block": {
-                                                                                      "type": "EventTeam",
-                                                                                      "id": "P{P{c$3eh4RMV5H)yiY7"
-                                                                                    }
-                                                                                  }
+                                                                                "type": "subroutineInstanceBlock",
+                                                                                "id": "9Vf@U%AXsi9.hN58bW+E",
+                                                                                "extraState": {
+                                                                                  "subroutineName": "endGameByScore",
+                                                                                  "parameters": []
+                                                                                },
+                                                                                "fields": {
+                                                                                  "SUBROUTINE_NAME": "endGameByScore"
                                                                                 }
                                                                               }
                                                                             }
@@ -6061,7 +6060,7 @@
         "type": "subroutineBlock",
         "id": "X{5am.A_f1!a@n5VWD19",
         "x": 0,
-        "y": 11552,
+        "y": 12168,
         "extraState": {
           "subroutineName": "flagPickedUp",
           "parameters": [
@@ -6684,7 +6683,7 @@
         "type": "subroutineBlock",
         "id": ":OQL40tp2E1w!,Wx`Y=C",
         "x": 0,
-        "y": 14338,
+        "y": 14954,
         "extraState": {
           "subroutineName": "flagCaptured",
           "parameters": [
@@ -7474,7 +7473,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 17462,
+        "y": 17811,
         "extraState": {
           "subroutineName": "showPlayerMessages",
           "parameters": []
@@ -9512,7 +9511,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 21287,
+        "y": 21628,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -10301,7 +10300,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 25000,
+        "y": 25341,
         "extraState": {
           "subroutineName": "initFlagPositions",
           "parameters": []
@@ -16266,7 +16265,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 20312,
+        "y": 20653,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -16362,7 +16361,7 @@
         "type": "subroutineBlock",
         "id": "[f*KuG}{U[?u*?$h`hQD",
         "x": 0,
-        "y": 12630,
+        "y": 13246,
         "extraState": {
           "subroutineName": "onFlagCarrierDied",
           "parameters": [
@@ -17002,7 +17001,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 22000,
+        "y": 22341,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -18699,7 +18698,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 24331,
+        "y": 24672,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
@@ -19414,7 +19413,7 @@
         "type": "subroutineBlock",
         "id": "5H8trv2Bt3E6p(MfGvdE",
         "x": 0,
-        "y": 13590,
+        "y": 14206,
         "extraState": {
           "subroutineName": "resetFlag",
           "parameters": [
@@ -19812,7 +19811,7 @@
         "type": "subroutineBlock",
         "id": "_[+jW,/BR#B[^ty0ZyGa",
         "x": 0,
-        "y": 20629,
+        "y": 20970,
         "extraState": {
           "subroutineName": "stopCarrierMessageTimer",
           "parameters": [
@@ -19923,7 +19922,7 @@
         "type": "subroutineBlock",
         "id": "-D`s]}Qw2w*X8K2W.Atc",
         "x": 0,
-        "y": 20962,
+        "y": 21303,
         "extraState": {
           "subroutineName": "restartCarrierMessgeTimer",
           "parameters": [
@@ -20024,7 +20023,7 @@
         "type": "subroutineBlock",
         "id": "f[fShd1YTnT`8!+0r498",
         "x": 0,
-        "y": 33414,
+        "y": 33755,
         "extraState": {
           "subroutineName": "initFlagIcons",
           "parameters": []
@@ -20887,7 +20886,7 @@
         "type": "subroutineBlock",
         "id": "#TT^8vU@y~!5l3$rX)OA",
         "x": 0,
-        "y": 15746,
+        "y": 16362,
         "extraState": {
           "subroutineName": "checkWinCondition",
           "parameters": []
@@ -21026,7 +21025,10 @@
                   "block": {
                     "type": "If",
                     "id": "eW78)J4Xo(80@#Q~F{wW",
-                    "extraState": {},
+                    "extraState": {
+                      "elseif": 0,
+                      "else": 1
+                    },
                     "inputs": {
                       "VALUE-0": {
                         "block": {
@@ -21550,278 +21552,33 @@
                             }
                           }
                         }
+                      },
+                      "ELSE": {
+                        "block": {
+                          "type": "subroutineInstanceBlock",
+                          "id": "k,D-AEt4cDFyqV,vTW%L",
+                          "extraState": {
+                            "subroutineName": "endGameByScore",
+                            "parameters": []
+                          },
+                          "fields": {
+                            "SUBROUTINE_NAME": "endGameByScore"
+                          }
+                        }
                       }
                     }
                   }
                 },
                 "ELSE": {
                   "block": {
-                    "type": "If",
-                    "id": "_o4k8*O;9x{5YL$C+@vc",
+                    "type": "subroutineInstanceBlock",
+                    "id": "C3^jAzViAWFO]6g_w~+K",
                     "extraState": {
-                      "elseif": 1,
-                      "else": 1
+                      "subroutineName": "endGameByScore",
+                      "parameters": []
                     },
-                    "inputs": {
-                      "VALUE-0": {
-                        "block": {
-                          "type": "GreaterThan",
-                          "id": "v5m2PS6@6MD:-kbuI*kt",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "GetVariable",
-                                "id": "^utR~9@/rj6PYwAocCb?",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "variableReferenceBlock",
-                                      "id": "a%3(_6]VEFoxqEX9./dg",
-                                      "extraState": {
-                                        "isObjectVar": true
-                                      },
-                                      "fields": {
-                                        "OBJECTTYPE": "TeamId",
-                                        "VAR": {
-                                          "id": "r4V8Q_*80+7u^-a{.?*h"
-                                        }
-                                      },
-                                      "inputs": {
-                                        "OBJECT": {
-                                          "block": {
-                                            "type": "GetTeamId",
-                                            "id": "RcOsLo5G_Vx3lNUpa5k`",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": "$HuVQw_j{D01=_sP-m7q",
-                                                  "fields": {
-                                                    "NUM": 1
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "VALUE-1": {
-                              "block": {
-                                "type": "GetVariable",
-                                "id": "MJ#T}{S4cxlo2$FZRKGf",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "variableReferenceBlock",
-                                      "id": "Fl#/f8D/{@VC}k@p1@%s",
-                                      "extraState": {
-                                        "isObjectVar": true
-                                      },
-                                      "fields": {
-                                        "OBJECTTYPE": "TeamId",
-                                        "VAR": {
-                                          "id": "r4V8Q_*80+7u^-a{.?*h"
-                                        }
-                                      },
-                                      "inputs": {
-                                        "OBJECT": {
-                                          "block": {
-                                            "type": "GetTeamId",
-                                            "id": "h6n6L7Iuj@aPPMwgt|dG",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": "6cOrhs2dy[[HV[WjRlU7",
-                                                  "fields": {
-                                                    "NUM": 2
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "DO": {
-                        "block": {
-                          "type": "EndRound",
-                          "id": "aF.~yt%3(,n}+;/KcQJ@",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "GetTeamId",
-                                "id": ",+I;.qWJP$XjRl8YvEg]",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "Number",
-                                      "id": ",V+N9p26Q3@vV8W3eQ_~",
-                                      "fields": {
-                                        "NUM": 1
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "IF1": {
-                        "block": {
-                          "type": "Equals",
-                          "id": "pQHxlDJ@Qr+Q(_CHgs(,",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "GetVariable",
-                                "id": "Y:]g2zVUn2(mxk/G*L8t",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "variableReferenceBlock",
-                                      "id": "!,7kO^Jv:HhD:gjBf2g5",
-                                      "extraState": {
-                                        "isObjectVar": true
-                                      },
-                                      "fields": {
-                                        "OBJECTTYPE": "TeamId",
-                                        "VAR": {
-                                          "id": "r4V8Q_*80+7u^-a{.?*h"
-                                        }
-                                      },
-                                      "inputs": {
-                                        "OBJECT": {
-                                          "block": {
-                                            "type": "GetTeamId",
-                                            "id": "+mjup3}W{A$f(e:IJ_A^",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": "OR^QOM)b;N55E{mGn],K",
-                                                  "fields": {
-                                                    "NUM": 1
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "VALUE-1": {
-                              "block": {
-                                "type": "GetVariable",
-                                "id": "$treDeEZC{H2}YVoq.Q*",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "variableReferenceBlock",
-                                      "id": "LGU!F*]6{F_/?pmz8m?!",
-                                      "extraState": {
-                                        "isObjectVar": true
-                                      },
-                                      "fields": {
-                                        "OBJECTTYPE": "TeamId",
-                                        "VAR": {
-                                          "id": "r4V8Q_*80+7u^-a{.?*h"
-                                        }
-                                      },
-                                      "inputs": {
-                                        "OBJECT": {
-                                          "block": {
-                                            "type": "GetTeamId",
-                                            "id": "kW%MX/Eq:l:H~2!2RCLC",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Number",
-                                                  "id": "0VL=H7x[o0,N)Wc)N^Mz",
-                                                  "fields": {
-                                                    "NUM": 2
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "DO1": {
-                        "block": {
-                          "type": "EndRound",
-                          "id": "L`uB!P|UG27-[j-tawhN",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "GetTeamId",
-                                "id": "J`BKuZRi`,[QFXxLJIP_",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "Number",
-                                      "id": "~f4P-toic52@FdAJ,+i@",
-                                      "fields": {
-                                        "NUM": 0
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "ELSE": {
-                        "block": {
-                          "type": "EndRound",
-                          "id": "-Vyrt:!4.}Z|N5jcHx4F",
-                          "inputs": {
-                            "VALUE-0": {
-                              "block": {
-                                "type": "GetTeamId",
-                                "id": "_Kq14*YNH:wuBMiFT5E1",
-                                "inputs": {
-                                  "VALUE-0": {
-                                    "block": {
-                                      "type": "Number",
-                                      "id": "B:p_v!K/np:36(*a9`|k",
-                                      "fields": {
-                                        "NUM": 2
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                    "fields": {
+                      "SUBROUTINE_NAME": "endGameByScore"
                     }
                   }
                 }
@@ -21834,7 +21591,7 @@
         "type": "subroutineBlock",
         "id": "9-}7kU1+Lm$IZR6(:.3x",
         "x": 0,
-        "y": 17065,
+        "y": 17414,
         "extraState": {
           "subroutineName": "debugFlagPositions",
           "parameters": []
@@ -22181,6 +21938,292 @@
                                       }
                                     }
                                   }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "subroutineBlock",
+        "id": "fbJ@nTopvBDU}@4blnMy",
+        "x": 0,
+        "y": 11552,
+        "extraState": {
+          "subroutineName": "endGameByScore",
+          "parameters": []
+        },
+        "fields": {
+          "SUBROUTINE_NAME": "endGameByScore"
+        },
+        "inputs": {
+          "ACTIONS": {
+            "block": {
+              "type": "If",
+              "id": "+4%{b%SC0)`g^bV}mp(U",
+              "extraState": {
+                "elseif": 1,
+                "else": 1
+              },
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "GreaterThan",
+                    "id": "zjP@pxRukpsbm8SJF[Dz",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "RTmOKS*`b@xq],PZYtoo",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "s5nbGZjF,[^iBg#!uBS|",
+                                "extraState": {
+                                  "isObjectVar": true
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "TeamId",
+                                  "VAR": {
+                                    "id": "r4V8Q_*80+7u^-a{.?*h"
+                                  }
+                                },
+                                "inputs": {
+                                  "OBJECT": {
+                                    "block": {
+                                      "type": "GetTeamId",
+                                      "id": "0xjdqv}Cg-4J`JnZ;=@w",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "mh.IX:bXP*K[|~`el.#v",
+                                            "fields": {
+                                              "NUM": 1
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "=s~fVY41hd3C!-[Qye`.",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "cwe7N#mn;CWa{h/:!y+c",
+                                "extraState": {
+                                  "isObjectVar": true
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "TeamId",
+                                  "VAR": {
+                                    "id": "r4V8Q_*80+7u^-a{.?*h"
+                                  }
+                                },
+                                "inputs": {
+                                  "OBJECT": {
+                                    "block": {
+                                      "type": "GetTeamId",
+                                      "id": "{_HyH|9TY^H$$u=Ly=1+",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "~iOLQ4BUyU%#.D/#uz|g",
+                                            "fields": {
+                                              "NUM": 2
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO": {
+                  "block": {
+                    "type": "EndRound",
+                    "id": "haU|;5w:+`A:K^i0ldB:",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetTeamId",
+                          "id": "ESO*J|ffdb-hRWsMA/v]",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Number",
+                                "id": "`7mvv*?/~gF;}7bSw:v,",
+                                "fields": {
+                                  "NUM": 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "IF1": {
+                  "block": {
+                    "type": "Equals",
+                    "id": "qA)bqP,a;42^0Df?ZS$r",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "DH:(C~Cj~Q^lbrx@)U]=",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "MmRo.mF0:v/^m]kMH+c{",
+                                "extraState": {
+                                  "isObjectVar": true
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "TeamId",
+                                  "VAR": {
+                                    "id": "r4V8Q_*80+7u^-a{.?*h"
+                                  }
+                                },
+                                "inputs": {
+                                  "OBJECT": {
+                                    "block": {
+                                      "type": "GetTeamId",
+                                      "id": "%S%Walf68$=xMhKeE9x4",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "=CS~Wp/2WUoU/tR#Z:NI",
+                                            "fields": {
+                                              "NUM": 1
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "U7|,p3n+_m|Jt.D+1t)@",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "C:XM=Iwl`VTN!k@iX(~:",
+                                "extraState": {
+                                  "isObjectVar": true
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "TeamId",
+                                  "VAR": {
+                                    "id": "r4V8Q_*80+7u^-a{.?*h"
+                                  }
+                                },
+                                "inputs": {
+                                  "OBJECT": {
+                                    "block": {
+                                      "type": "GetTeamId",
+                                      "id": "/?@G#QW6H-yV1kW4O[ma",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Number",
+                                            "id": "3k6%6DEPjfPiJs=#Qz?7",
+                                            "fields": {
+                                              "NUM": 2
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO1": {
+                  "block": {
+                    "type": "EndRound",
+                    "id": "k3`TpZwU`N-ft+!,ZRkd",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetTeamId",
+                          "id": "F0X5+Frlw.djBRw;A{;:",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Number",
+                                "id": "8nR[_NxKuo[Vn8N7]@L0",
+                                "fields": {
+                                  "NUM": 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "ELSE": {
+                  "block": {
+                    "type": "EndRound",
+                    "id": "ZN-pV$t|F/)tvsE3{oH-",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetTeamId",
+                          "id": "Ym~!;VRR:Lbm-YgEvv2i",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Number",
+                                "id": "wS=rFH@*8xR?CPlZIV+u",
+                                "fields": {
+                                  "NUM": 2
                                 }
                               }
                             }
