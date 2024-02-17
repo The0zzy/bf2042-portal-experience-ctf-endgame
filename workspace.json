@@ -21072,8 +21072,8 @@
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "Or",
-                    "id": "xW6wp8AQiTrq=bkWy`QF",
+                    "type": "And",
+                    "id": "j2*=e2mg%bsf-jN4r/du",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
@@ -21100,20 +21100,28 @@
                       },
                       "VALUE-1": {
                         "block": {
-                          "type": "GetVariable",
-                          "id": "cg3YyBUhALQZ8;g%A0)$",
+                          "type": "Not",
+                          "id": "e;eMj-{O@nGNvtry~YB0",
                           "inputs": {
                             "VALUE-0": {
                               "block": {
-                                "type": "variableReferenceBlock",
-                                "id": "jm_[|N(qFpX2ivI=}li/",
-                                "extraState": {
-                                  "isObjectVar": false
-                                },
-                                "fields": {
-                                  "OBJECTTYPE": "Global",
-                                  "VAR": {
-                                    "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                "type": "GetVariable",
+                                "id": "cg3YyBUhALQZ8;g%A0)$",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "jm_[|N(qFpX2ivI=}li/",
+                                      "extraState": {
+                                        "isObjectVar": false
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Global",
+                                        "VAR": {
+                                          "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                        }
+                                      }
+                                    }
                                   }
                                 }
                               }
