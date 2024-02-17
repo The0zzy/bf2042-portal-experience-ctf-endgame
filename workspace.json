@@ -1545,7 +1545,7 @@
                                                           "type": "Number",
                                                           "id": "^m=Dx5}q+3G^L~gP/k0y",
                                                           "fields": {
-                                                            "NUM": 120
+                                                            "NUM": 1200
                                                           }
                                                         }
                                                       }
@@ -2448,7 +2448,7 @@
                                                                                                                                                           "type": "Boolean",
                                                                                                                                                           "id": "V#e_{,%)Bd1c*udv{%BY",
                                                                                                                                                           "fields": {
-                                                                                                                                                            "BOOL": "TRUE"
+                                                                                                                                                            "BOOL": "FALSE"
                                                                                                                                                           }
                                                                                                                                                         }
                                                                                                                                                       }
@@ -2478,7 +2478,7 @@
                                                                                                                                                               "type": "Number",
                                                                                                                                                               "id": "{I;`FPY{?%`p;}lGL1S%",
                                                                                                                                                               "fields": {
-                                                                                                                                                                "NUM": 20
+                                                                                                                                                                "NUM": 180
                                                                                                                                                               }
                                                                                                                                                             }
                                                                                                                                                           }
