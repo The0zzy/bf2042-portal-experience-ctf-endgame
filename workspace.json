@@ -7576,7 +7576,7 @@
         "type": "subroutineBlock",
         "id": "(#5w)L}3Ka8xdiE{2l%r",
         "x": 0,
-        "y": 18100,
+        "y": 16472,
         "extraState": {
           "subroutineName": "showPlayerMessages",
           "parameters": []
@@ -9677,7 +9677,7 @@
         "type": "subroutineBlock",
         "id": "4;p|hxH%}Hj:CZyMwq@x",
         "x": 0,
-        "y": 22013,
+        "y": 21565,
         "extraState": {
           "subroutineName": "tick",
           "parameters": []
@@ -10466,7 +10466,7 @@
         "type": "subroutineBlock",
         "id": "7)dMU$zdQ4DZ4b*b)(k)",
         "x": 0,
-        "y": 25726,
+        "y": 25278,
         "extraState": {
           "subroutineName": "initFlagPositions",
           "parameters": []
@@ -16431,7 +16431,7 @@
         "type": "subroutineBlock",
         "id": "u%$b1)byqd#5i!2,q.zu",
         "x": 0,
-        "y": 21038,
+        "y": 20590,
         "extraState": {
           "subroutineName": "enableFlagCarrierRestrictions",
           "parameters": [
@@ -17167,7 +17167,7 @@
         "type": "subroutineBlock",
         "id": "(r+xJnIHldowsUtG`^Fe",
         "x": 0,
-        "y": 22726,
+        "y": 22278,
         "extraState": {
           "subroutineName": "updateIcons",
           "parameters": []
@@ -18864,7 +18864,7 @@
         "type": "subroutineBlock",
         "id": "R[FVKojSyFn@EDY]rU@x",
         "x": 0,
-        "y": 25057,
+        "y": 24609,
         "extraState": {
           "subroutineName": "updateRecaptureTime",
           "parameters": []
@@ -19977,7 +19977,7 @@
         "type": "subroutineBlock",
         "id": "_[+jW,/BR#B[^ty0ZyGa",
         "x": 0,
-        "y": 21355,
+        "y": 20907,
         "extraState": {
           "subroutineName": "stopCarrierMessageTimer",
           "parameters": [
@@ -20088,7 +20088,7 @@
         "type": "subroutineBlock",
         "id": "-D`s]}Qw2w*X8K2W.Atc",
         "x": 0,
-        "y": 21688,
+        "y": 21240,
         "extraState": {
           "subroutineName": "restartCarrierMessgeTimer",
           "parameters": [
@@ -20189,7 +20189,7 @@
         "type": "subroutineBlock",
         "id": "f[fShd1YTnT`8!+0r498",
         "x": 0,
-        "y": 34140,
+        "y": 33692,
         "extraState": {
           "subroutineName": "initFlagIcons",
           "parameters": []
@@ -21052,7 +21052,7 @@
         "type": "subroutineBlock",
         "id": "#TT^8vU@y~!5l3$rX)OA",
         "x": 0,
-        "y": 16472,
+        "y": 19410,
         "extraState": {
           "subroutineName": "checkWinCondition",
           "parameters": []
@@ -21072,20 +21072,51 @@
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "GetVariable",
-                    "id": ")9M|WUg:1N*:BE$qI-iF",
+                    "type": "Or",
+                    "id": "xW6wp8AQiTrq=bkWy`QF",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
-                          "type": "variableReferenceBlock",
-                          "id": "{iRQ91VAwey@-7m}i-5.",
-                          "extraState": {
-                            "isObjectVar": false
-                          },
-                          "fields": {
-                            "OBJECTTYPE": "Global",
-                            "VAR": {
-                              "id": ";$o93YO^4n4rTT?h{^@p"
+                          "type": "GetVariable",
+                          "id": ")9M|WUg:1N*:BE$qI-iF",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "{iRQ91VAwey@-7m}i-5.",
+                                "extraState": {
+                                  "isObjectVar": false
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "Global",
+                                  "VAR": {
+                                    "id": ";$o93YO^4n4rTT?h{^@p"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "cg3YyBUhALQZ8;g%A0)$",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "jm_[|N(qFpX2ivI=}li/",
+                                "extraState": {
+                                  "isObjectVar": false
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "Global",
+                                  "VAR": {
+                                    "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -21096,7 +21127,7 @@
                 "DO": {
                   "block": {
                     "type": "If",
-                    "id": "pGk=AV*E2EE7S:j_4YAe",
+                    "id": "eW78)J4Xo(80@#Q~F{wW",
                     "extraState": {
                       "elseif": 0,
                       "else": 1
@@ -21104,49 +21135,58 @@
                     "inputs": {
                       "VALUE-0": {
                         "block": {
-                          "type": "LessThanEqualTo",
-                          "id": "(T=v@f%.wl7@N}pQr(})",
+                          "type": "And",
+                          "id": "u[DW@8G=+Cqcz3yGlt[:",
+                          "inline": false,
                           "inputs": {
                             "VALUE-0": {
                               "block": {
-                                "type": "AbsoluteValue",
-                                "id": "cr;w:[cwP@u;Gb!xqnGB",
+                                "type": "LessThanEqualTo",
+                                "id": "(T=v@f%.wl7@N}pQr(})",
                                 "inputs": {
                                   "VALUE-0": {
                                     "block": {
-                                      "type": "Subtract",
-                                      "id": "$kTan/5iXs?NG[M5iwVo",
+                                      "type": "AbsoluteValue",
+                                      "id": "cr;w:[cwP@u;Gb!xqnGB",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
-                                            "type": "GetVariable",
-                                            "id": ";%(,S/mu`ya4{=XS}=*N",
+                                            "type": "Subtract",
+                                            "id": "$kTan/5iXs?NG[M5iwVo",
                                             "inputs": {
                                               "VALUE-0": {
                                                 "block": {
-                                                  "type": "variableReferenceBlock",
-                                                  "id": "l2F#CP/0.wUj?iKz-VQ}",
-                                                  "extraState": {
-                                                    "isObjectVar": true
-                                                  },
-                                                  "fields": {
-                                                    "OBJECTTYPE": "TeamId",
-                                                    "VAR": {
-                                                      "id": "r4V8Q_*80+7u^-a{.?*h"
-                                                    }
-                                                  },
+                                                  "type": "GetVariable",
+                                                  "id": ";%(,S/mu`ya4{=XS}=*N",
                                                   "inputs": {
-                                                    "OBJECT": {
+                                                    "VALUE-0": {
                                                       "block": {
-                                                        "type": "GetTeamId",
-                                                        "id": "o;Z=t!_irVmB+b54+amK",
+                                                        "type": "variableReferenceBlock",
+                                                        "id": "l2F#CP/0.wUj?iKz-VQ}",
+                                                        "extraState": {
+                                                          "isObjectVar": true
+                                                        },
+                                                        "fields": {
+                                                          "OBJECTTYPE": "TeamId",
+                                                          "VAR": {
+                                                            "id": "r4V8Q_*80+7u^-a{.?*h"
+                                                          }
+                                                        },
                                                         "inputs": {
-                                                          "VALUE-0": {
+                                                          "OBJECT": {
                                                             "block": {
-                                                              "type": "Number",
-                                                              "id": "@fhZCcEj;_D#1|kiod6[",
-                                                              "fields": {
-                                                                "NUM": 1
+                                                              "type": "GetTeamId",
+                                                              "id": "o;Z=t!_irVmB+b54+amK",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "Number",
+                                                                    "id": "@fhZCcEj;_D#1|kiod6[",
+                                                                    "fields": {
+                                                                      "NUM": 1
+                                                                    }
+                                                                  }
+                                                                }
                                                               }
                                                             }
                                                           }
@@ -21155,40 +21195,40 @@
                                                     }
                                                   }
                                                 }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "VALUE-1": {
-                                          "block": {
-                                            "type": "GetVariable",
-                                            "id": "]Ehiw=$DK(`o`vP_])Qj",
-                                            "inputs": {
-                                              "VALUE-0": {
+                                              },
+                                              "VALUE-1": {
                                                 "block": {
-                                                  "type": "variableReferenceBlock",
-                                                  "id": "uI{hXeXU,N:5iy^([mW=",
-                                                  "extraState": {
-                                                    "isObjectVar": true
-                                                  },
-                                                  "fields": {
-                                                    "OBJECTTYPE": "TeamId",
-                                                    "VAR": {
-                                                      "id": "r4V8Q_*80+7u^-a{.?*h"
-                                                    }
-                                                  },
+                                                  "type": "GetVariable",
+                                                  "id": "]Ehiw=$DK(`o`vP_])Qj",
                                                   "inputs": {
-                                                    "OBJECT": {
+                                                    "VALUE-0": {
                                                       "block": {
-                                                        "type": "GetTeamId",
-                                                        "id": "I@TJ0AplNqi.;)Kr^#c:",
+                                                        "type": "variableReferenceBlock",
+                                                        "id": "uI{hXeXU,N:5iy^([mW=",
+                                                        "extraState": {
+                                                          "isObjectVar": true
+                                                        },
+                                                        "fields": {
+                                                          "OBJECTTYPE": "TeamId",
+                                                          "VAR": {
+                                                            "id": "r4V8Q_*80+7u^-a{.?*h"
+                                                          }
+                                                        },
                                                         "inputs": {
-                                                          "VALUE-0": {
+                                                          "OBJECT": {
                                                             "block": {
-                                                              "type": "Number",
-                                                              "id": "8y3|b^H2I97w,30a!j^@",
-                                                              "fields": {
-                                                                "NUM": 2
+                                                              "type": "GetTeamId",
+                                                              "id": "I@TJ0AplNqi.;)Kr^#c:",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "Number",
+                                                                    "id": "8y3|b^H2I97w,30a!j^@",
+                                                                    "fields": {
+                                                                      "NUM": 2
+                                                                    }
+                                                                  }
+                                                                }
                                                               }
                                                             }
                                                           }
@@ -21203,32 +21243,20 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "So]A?2.)|^5eY.X,w$a?",
+                                      "fields": {
+                                        "NUM": 1
+                                      }
+                                    }
                                   }
                                 }
                               }
                             },
                             "VALUE-1": {
-                              "block": {
-                                "type": "Number",
-                                "id": "So]A?2.)|^5eY.X,w$a?",
-                                "fields": {
-                                  "NUM": 1
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "DO": {
-                        "block": {
-                          "type": "If",
-                          "id": "eW78)J4Xo(80@#Q~F{wW",
-                          "extraState": {
-                            "elseif": 0,
-                            "else": 1
-                          },
-                          "inputs": {
-                            "VALUE-0": {
                               "block": {
                                 "type": "Or",
                                 "id": "J{#C(uv(59#T*v;E+B_y",
@@ -21620,141 +21648,42 @@
                                   }
                                 }
                               }
-                            },
-                            "DO": {
+                            }
+                          }
+                        }
+                      },
+                      "DO": {
+                        "block": {
+                          "type": "SetRoundTimeLimit",
+                          "id": "Tet#+BQ|#+[[_?R(jt1M",
+                          "inputs": {
+                            "VALUE-0": {
                               "block": {
-                                "type": "SetRoundTimeLimit",
-                                "id": "Tet#+BQ|#+[[_?R(jt1M",
+                                "type": "Add",
+                                "id": "P_X9iqTiDA6se*EpaFN7",
                                 "inputs": {
                                   "VALUE-0": {
                                     "block": {
-                                      "type": "Add",
-                                      "id": "P_X9iqTiDA6se*EpaFN7",
+                                      "type": "GetRoundTime",
+                                      "id": "ZdTx;I.)+Poxp+rwuU/x"
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "GetVariable",
+                                      "id": "8:+p4:fI`aGluI?B8dU@",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
-                                            "type": "GetRoundTime",
-                                            "id": "ZdTx;I.)+Poxp+rwuU/x"
-                                          }
-                                        },
-                                        "VALUE-1": {
-                                          "block": {
-                                            "type": "GetVariable",
-                                            "id": "8:+p4:fI`aGluI?B8dU@",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "variableReferenceBlock",
-                                                  "id": "O@B-mWL]dspu}~e7IJaB",
-                                                  "extraState": {
-                                                    "isObjectVar": false
-                                                  },
-                                                  "fields": {
-                                                    "OBJECTTYPE": "Global",
-                                                    "VAR": {
-                                                      "id": "^`BA:M,=OyZAm,gH(ckt"
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "next": {
-                                  "block": {
-                                    "type": "PauseRoundTime",
-                                    "id": "96iKNLX)z?jcwwp,mBA5",
-                                    "inputs": {
-                                      "VALUE-0": {
-                                        "block": {
-                                          "type": "Boolean",
-                                          "id": "hn-JA2sLLBqj!:^J#uXY",
-                                          "fields": {
-                                            "BOOL": "FALSE"
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "next": {
-                                      "block": {
-                                        "type": "ShowEventGameModeMessage",
-                                        "id": "}f3uz%`aSYBIsKXh;dk0",
-                                        "inputs": {
-                                          "VALUE-0": {
-                                            "block": {
-                                              "type": "Message",
-                                              "id": "6!8!coHzY@2v!=/t]gos",
-                                              "inputs": {
-                                                "VALUE-0": {
-                                                  "block": {
-                                                    "type": "Text",
-                                                    "id": "@wQ4zAn`ispST-,43^K-",
-                                                    "fields": {
-                                                      "TEXT": "OVERTIME!"
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
-                                        "next": {
-                                          "block": {
-                                            "type": "ShowHighlightedGameModeMessage",
-                                            "id": "gQnd^eEmDdq0%sSn.3Im",
-                                            "inputs": {
-                                              "VALUE-0": {
-                                                "block": {
-                                                  "type": "Message",
-                                                  "id": "_|TXYdI-g9zt-boT2V$a",
-                                                  "inputs": {
-                                                    "VALUE-0": {
-                                                      "block": {
-                                                        "type": "Text",
-                                                        "id": "`(s~XLh18AC3`W}^ZOL!",
-                                                        "fields": {
-                                                          "TEXT": "OVERTIME!"
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
+                                            "type": "variableReferenceBlock",
+                                            "id": "O@B-mWL]dspu}~e7IJaB",
+                                            "extraState": {
+                                              "isObjectVar": false
                                             },
-                                            "next": {
-                                              "block": {
-                                                "type": "SetVariable",
-                                                "id": "n-{!No,YGdMN|v!jk(bp",
-                                                "inputs": {
-                                                  "VALUE-0": {
-                                                    "block": {
-                                                      "type": "variableReferenceBlock",
-                                                      "id": "]g9GUo~s@[(FcpQMMey!",
-                                                      "extraState": {
-                                                        "isObjectVar": false
-                                                      },
-                                                      "fields": {
-                                                        "OBJECTTYPE": "Global",
-                                                        "VAR": {
-                                                          "id": ".JZ)e]sXW:m5,d*Wc70i"
-                                                        }
-                                                      }
-                                                    }
-                                                  },
-                                                  "VALUE-1": {
-                                                    "block": {
-                                                      "type": "Boolean",
-                                                      "id": "({wktVtVY0(}+Cg2Xtdf",
-                                                      "fields": {
-                                                        "BOOL": "TRUE"
-                                                      }
-                                                    }
-                                                  }
-                                                }
+                                            "fields": {
+                                              "OBJECTTYPE": "Global",
+                                              "VAR": {
+                                                "id": "^`BA:M,=OyZAm,gH(ckt"
                                               }
                                             }
                                           }
@@ -21764,17 +21693,103 @@
                                   }
                                 }
                               }
-                            },
-                            "ELSE": {
-                              "block": {
-                                "type": "subroutineInstanceBlock",
-                                "id": "|:iV7SIAR*xIHiA-8Z2B",
-                                "extraState": {
-                                  "subroutineName": "endGameByScore",
-                                  "parameters": []
-                                },
-                                "fields": {
-                                  "SUBROUTINE_NAME": "endGameByScore"
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "PauseRoundTime",
+                              "id": "96iKNLX)z?jcwwp,mBA5",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Boolean",
+                                    "id": "hn-JA2sLLBqj!:^J#uXY",
+                                    "fields": {
+                                      "BOOL": "FALSE"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "ShowEventGameModeMessage",
+                                  "id": "}f3uz%`aSYBIsKXh;dk0",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Message",
+                                        "id": "6!8!coHzY@2v!=/t]gos",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "Text",
+                                              "id": "@wQ4zAn`ispST-,43^K-",
+                                              "fields": {
+                                                "TEXT": "OVERTIME!"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "ShowHighlightedGameModeMessage",
+                                      "id": "gQnd^eEmDdq0%sSn.3Im",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Message",
+                                            "id": "_|TXYdI-g9zt-boT2V$a",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "Text",
+                                                  "id": "`(s~XLh18AC3`W}^ZOL!",
+                                                  "fields": {
+                                                    "TEXT": "OVERTIME!"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "SetVariable",
+                                          "id": "n-{!No,YGdMN|v!jk(bp",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "variableReferenceBlock",
+                                                "id": "]g9GUo~s@[(FcpQMMey!",
+                                                "extraState": {
+                                                  "isObjectVar": false
+                                                },
+                                                "fields": {
+                                                  "OBJECTTYPE": "Global",
+                                                  "VAR": {
+                                                    "id": ".JZ)e]sXW:m5,d*Wc70i"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "VALUE-1": {
+                                              "block": {
+                                                "type": "Boolean",
+                                                "id": "({wktVtVY0(}+Cg2Xtdf",
+                                                "fields": {
+                                                  "BOOL": "TRUE"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
                                 }
                               }
                             }
@@ -21784,7 +21799,7 @@
                       "ELSE": {
                         "block": {
                           "type": "subroutineInstanceBlock",
-                          "id": "PwM;)$~cJNu?(M2fDKMY",
+                          "id": "|:iV7SIAR*xIHiA-8Z2B",
                           "extraState": {
                             "subroutineName": "endGameByScore",
                             "parameters": []
@@ -21819,7 +21834,7 @@
         "type": "subroutineBlock",
         "id": "9-}7kU1+Lm$IZR6(:.3x",
         "x": 0,
-        "y": 17703,
+        "y": 35291,
         "extraState": {
           "subroutineName": "debugFlagPositions",
           "parameters": []
