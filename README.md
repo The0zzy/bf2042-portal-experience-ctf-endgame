@@ -3,7 +3,7 @@
 ## Experience Codes
 
 - 2042 Version: `ABENTC`
-- BF3 Version: `ABEWX7`
+- BF3 Version: `ABNUJK`
 
 ## Gameplay Rules
 
@@ -16,7 +16,7 @@ If the flag carrier dies, the flag will be dropped at their current location.
 A dropped flag
 
 - can be picked up by the opposing team again
-- will return to its base after a timeout (default: 90 seconds)
+- will return to its base after a timeout (default: 50 seconds)
 - can be returned faster by its owning team by standing close to it (stand within 10m)
 
 The team stealing 5 flags first, wins the match.  
