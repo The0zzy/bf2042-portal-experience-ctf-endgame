@@ -33,7 +33,7 @@ To score, the own flag must be at the base when delivering the enemy flag.
   - 3x LATV
   - 1x Pondhawk
 - 2x Jet
-- 3x Attack Helicopter
+- 1x Attack Helicopter
 - 2x Heavy Transport Vehicle
   - 1x MAV
   - 1x CAV-Brawler
@@ -48,9 +48,9 @@ To score, the own flag must be at the base when delivering the enemy flag.
 
 ![](resources/images/map-layouts/flashpoint.png "map layout")
 
-### Breakaway (infantry only)
+<!-- ### Breakaway (infantry only)
 
-![](resources/images/map-layouts/breakaway.jpg "map layout")
+![](resources/images/map-layouts/breakaway.jpg "map layout") -->
 
 ### Spearhead (all out warfare)
 
